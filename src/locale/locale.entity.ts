@@ -10,4 +10,7 @@ export class LocaleEntity {
 
   @Column()
   localeName: string;
+
+  @Column('text', { array: true, nullable: true })
+  synonyms: string[];
 }
