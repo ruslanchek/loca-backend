@@ -11,6 +11,12 @@ export class LocaleEntity {
   @Column()
   localeName: string;
 
-  @Column('text', { array: true, nullable: true })
-  synonyms: string[];
+  @Column({nullable: true})
+  baseLocaleName: string;
+
+  @Column({nullable: true})
+  countryName: string;
+
+  @Column({nullable: true})
+  countryCode: string;
 }

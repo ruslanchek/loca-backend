@@ -1,0 +1,2926 @@
+[
+  {
+    "localeName": "eu",
+    "title": "Basque"
+  },
+  {
+    "localeName": "hr_BA",
+    "title": "Croatian (Bosnia & Herzegovina)"
+  },
+  {
+    "localeName": "en_CM",
+    "title": "English (Cameroon)"
+  },
+  {
+    "localeName": "rw_RW",
+    "title": "Kinyarwanda (Rwanda)"
+  },
+  {
+    "localeName": "en_SZ",
+    "title": "English (Swaziland)"
+  },
+  {
+    "localeName": "tk_Latn",
+    "title": "Turkmen (Latin)"
+  },
+  {
+    "localeName": "he_IL",
+    "title": "Hebrew (Israel)"
+  },
+  {
+    "localeName": "ar",
+    "title": "Arabic"
+  },
+  {
+    "localeName": "uz_Arab",
+    "title": "Uzbek (Arabic)"
+  },
+  {
+    "localeName": "en_PN",
+    "title": "English (Pitcairn Islands)"
+  },
+  {
+    "localeName": "as",
+    "title": "Assamese"
+  },
+  {
+    "localeName": "en_NF",
+    "title": "English (Norfolk Island)"
+  },
+  {
+    "localeName": "rwk_TZ",
+    "title": "Rwa (Tanzania)"
+  },
+  {
+    "localeName": "zh_Hant_TW",
+    "title": "Chinese (Traditional, Taiwan)"
+  },
+  {
+    "localeName": "gsw_LI",
+    "title": "Swiss German (Liechtenstein)"
+  },
+  {
+    "localeName": "th_TH",
+    "title": "Thai (Thailand)"
+  },
+  {
+    "localeName": "ta_IN",
+    "title": "Tamil (India)"
+  },
+  {
+    "localeName": "es_EA",
+    "title": "Spanish (Ceuta & Melilla)"
+  },
+  {
+    "localeName": "fr_GF",
+    "title": "French (French Guiana)"
+  },
+  {
+    "localeName": "ar_001",
+    "title": "Arabic (World)"
+  },
+  {
+    "localeName": "en_RW",
+    "title": "English (Rwanda)"
+  },
+  {
+    "localeName": "tr_TR",
+    "title": "Turkish (Turkey)"
+  },
+  {
+    "localeName": "de_CH",
+    "title": "German (Switzerland)"
+  },
+  {
+    "localeName": "ee_TG",
+    "title": "Ewe (Togo)"
+  },
+  {
+    "localeName": "en_NG",
+    "title": "English (Nigeria)"
+  },
+  {
+    "localeName": "fr_TG",
+    "title": "French (Togo)"
+  },
+  {
+    "localeName": "az",
+    "title": "Azerbaijani"
+  },
+  {
+    "localeName": "fr_SC",
+    "title": "French (Seychelles)"
+  },
+  {
+    "localeName": "es_HN",
+    "title": "Spanish (Honduras)"
+  },
+  {
+    "localeName": "en_AG",
+    "title": "English (Antigua & Barbuda)"
+  },
+  {
+    "localeName": "ru_KZ",
+    "title": "Russian (Kazakhstan)"
+  },
+  {
+    "localeName": "gsw",
+    "title": "Swiss German"
+  },
+  {
+    "localeName": "dyo",
+    "title": "Jola-Fonyi"
+  },
+  {
+    "localeName": "so_ET",
+    "title": "Somali (Ethiopia)"
+  },
+  {
+    "localeName": "zh_Hant_MO",
+    "title": "Chinese (Traditional, Macau SAR China)"
+  },
+  {
+    "localeName": "de_BE",
+    "title": "German (Belgium)"
+  },
+  {
+    "localeName": "km_KH",
+    "title": "Khmer (Cambodia)"
+  },
+  {
+    "localeName": "my_MM",
+    "title": "Burmese (Myanmar [Burma])"
+  },
+  {
+    "localeName": "mgh_MZ",
+    "title": "Makhuwa-Meetto (Mozambique)"
+  },
+  {
+    "localeName": "ee_GH",
+    "title": "Ewe (Ghana)"
+  },
+  {
+    "localeName": "es_EC",
+    "title": "Spanish (Ecuador)"
+  },
+  {
+    "localeName": "kw_GB",
+    "title": "Cornish (United Kingdom)"
+  },
+  {
+    "localeName": "rm_CH",
+    "title": "Romansh (Switzerland)"
+  },
+  {
+    "localeName": "en_ME",
+    "title": "English (Montenegro)"
+  },
+  {
+    "localeName": "nyn",
+    "title": "Nyankole"
+  },
+  {
+    "localeName": "mk_MK",
+    "title": "Macedonian (Macedonia)"
+  },
+  {
+    "localeName": "bs_Cyrl_BA",
+    "title": "Bosnian (Cyrillic, Bosnia & Herzegovina)"
+  },
+  {
+    "localeName": "ar_MR",
+    "title": "Arabic (Mauritania)"
+  },
+  {
+    "localeName": "en_BM",
+    "title": "English (Bermuda)"
+  },
+  {
+    "localeName": "ms_Arab",
+    "title": "Malay (Arabic)"
+  },
+  {
+    "localeName": "en_AI",
+    "title": "English (Anguilla)"
+  },
+  {
+    "localeName": "gl_ES",
+    "title": "Galician (Spain)"
+  },
+  {
+    "localeName": "en_PR",
+    "title": "English (Puerto Rico)"
+  },
+  {
+    "localeName": "ha_Latn_GH",
+    "title": "Hausa (Latin, Ghana)"
+  },
+  {
+    "localeName": "ff_CM",
+    "title": "Fulah (Cameroon)"
+  },
+  {
+    "localeName": "ne_IN",
+    "title": "Nepali (India)"
+  },
+  {
+    "localeName": "or_IN",
+    "title": "Oriya (India)"
+  },
+  {
+    "localeName": "khq_ML",
+    "title": "Koyra Chiini (Mali)"
+  },
+  {
+    "localeName": "en_MG",
+    "title": "English (Madagascar)"
+  },
+  {
+    "localeName": "pt_TL",
+    "title": "Portuguese (Timor-Leste)"
+  },
+  {
+    "localeName": "en_LC",
+    "title": "English (St. Lucia)"
+  },
+  {
+    "localeName": "ta_SG",
+    "title": "Tamil (Singapore)"
+  },
+  {
+    "localeName": "jmc_TZ",
+    "title": "Machame (Tanzania)"
+  },
+  {
+    "localeName": "om_ET",
+    "title": "Oromo (Ethiopia)"
+  },
+  {
+    "localeName": "lv_LV",
+    "title": "Latvian (Latvia)"
+  },
+  {
+    "localeName": "es_US",
+    "title": "Spanish (United States)"
+  },
+  {
+    "localeName": "en_PT",
+    "title": "English (Portugal)"
+  },
+  {
+    "localeName": "vai_Latn_LR",
+    "title": "Vai (Latin, Liberia)"
+  },
+  {
+    "localeName": "en_NL",
+    "title": "English (Netherlands)"
+  },
+  {
+    "localeName": "iu_Cans_CA",
+    "title": "Inuktitut (Unified Canadian Aboriginal Syllabics, Canada)"
+  },
+  {
+    "localeName": "cgg_UG",
+    "title": "Chiga (Uganda)"
+  },
+  {
+    "localeName": "ta",
+    "title": "Tamil"
+  },
+  {
+    "localeName": "en_MH",
+    "title": "English (Marshall Islands)"
+  },
+  {
+    "localeName": "to_TO",
+    "title": "Tongan (Tonga)"
+  },
+  {
+    "localeName": "zu_ZA",
+    "title": "Zulu (South Africa)"
+  },
+  {
+    "localeName": "shi_Latn_MA",
+    "title": "Tachelhit (Latin, Morocco)"
+  },
+  {
+    "localeName": "brx_IN",
+    "title": "Bodo (India)"
+  },
+  {
+    "localeName": "ar_KM",
+    "title": "Arabic (Comoros)"
+  },
+  {
+    "localeName": "en_AL",
+    "title": "English (Albania)"
+  },
+  {
+    "localeName": "te",
+    "title": "Telugu"
+  },
+  {
+    "localeName": "chr_US",
+    "title": "Cherokee (United States)"
+  },
+  {
+    "localeName": "yo_BJ",
+    "title": "Yoruba (Benin)"
+  },
+  {
+    "localeName": "fr_VU",
+    "title": "French (Vanuatu)"
+  },
+  {
+    "localeName": "pa",
+    "title": "Punjabi"
+  },
+  {
+    "localeName": "tg",
+    "title": "Tajik"
+  },
+  {
+    "localeName": "ks_Arab",
+    "title": "Kashmiri (Arabic)"
+  },
+  {
+    "localeName": "kea",
+    "title": "Kabuverdianu"
+  },
+  {
+    "localeName": "ksh_DE",
+    "title": "Colognian (Germany)"
+  },
+  {
+    "localeName": "sw_CD",
+    "title": "Swahili (Congo - Kinshasa)"
+  },
+  {
+    "localeName": "th",
+    "title": "Thai"
+  },
+  {
+    "localeName": "te_IN",
+    "title": "Telugu (India)"
+  },
+  {
+    "localeName": "fr_RE",
+    "title": "French (Réunion)"
+  },
+  {
+    "localeName": "ur_IN",
+    "title": "Urdu (India)"
+  },
+  {
+    "localeName": "yo_NG",
+    "title": "Yoruba (Nigeria)"
+  },
+  {
+    "localeName": "ti",
+    "title": "Tigrinya"
+  },
+  {
+    "localeName": "guz_KE",
+    "title": "Gusii (Kenya)"
+  },
+  {
+    "localeName": "tk",
+    "title": "Turkmen"
+  },
+  {
+    "localeName": "kl_GL",
+    "title": "Kalaallisut (Greenland)"
+  },
+  {
+    "localeName": "ksf_CM",
+    "title": "Bafia (Cameroon)"
+  },
+  {
+    "localeName": "mua_CM",
+    "title": "Mundang (Cameroon)"
+  },
+  {
+    "localeName": "lag_TZ",
+    "title": "Langi (Tanzania)"
+  },
+  {
+    "localeName": "lb",
+    "title": "Luxembourgish"
+  },
+  {
+    "localeName": "fr_TN",
+    "title": "French (Tunisia)"
+  },
+  {
+    "localeName": "es_PA",
+    "title": "Spanish (Panama)"
+  },
+  {
+    "localeName": "pl_PL",
+    "title": "Polish (Poland)"
+  },
+  {
+    "localeName": "to",
+    "title": "Tongan"
+  },
+  {
+    "localeName": "hi_IN",
+    "title": "Hindi (India)"
+  },
+  {
+    "localeName": "dje_NE",
+    "title": "Zarma (Niger)"
+  },
+  {
+    "localeName": "es_GQ",
+    "title": "Spanish (Equatorial Guinea)"
+  },
+  {
+    "localeName": "kok_IN",
+    "title": "Konkani (India)"
+  },
+  {
+    "localeName": "pl",
+    "title": "Polish"
+  },
+  {
+    "localeName": "fr_GN",
+    "title": "French (Guinea)"
+  },
+  {
+    "localeName": "bem",
+    "title": "Bemba"
+  },
+  {
+    "localeName": "ha",
+    "title": "Hausa"
+  },
+  {
+    "localeName": "ckb",
+    "title": "Central Kurdish"
+  },
+  {
+    "localeName": "lg",
+    "title": "Ganda"
+  },
+  {
+    "localeName": "tr",
+    "title": "Turkish"
+  },
+  {
+    "localeName": "en_PW",
+    "title": "English (Palau)"
+  },
+  {
+    "localeName": "en_NO",
+    "title": "English (Norway)"
+  },
+  {
+    "localeName": "nyn_UG",
+    "title": "Nyankole (Uganda)"
+  },
+  {
+    "localeName": "sr_Latn_RS",
+    "title": "Serbian (Latin, Serbia)"
+  },
+  {
+    "localeName": "gsw_FR",
+    "title": "Swiss German (France)"
+  },
+  {
+    "localeName": "pa_Guru",
+    "title": "Punjabi (Gurmukhi)"
+  },
+  {
+    "localeName": "he",
+    "title": "Hebrew"
+  },
+  {
+    "localeName": "sn_ZW",
+    "title": "Shona (Zimbabwe)"
+  },
+  {
+    "localeName": "qu_BO",
+    "title": "Quechua (Bolivia)"
+  },
+  {
+    "localeName": "lu_CD",
+    "title": "Luba-Katanga (Congo - Kinshasa)"
+  },
+  {
+    "localeName": "mgo_CM",
+    "title": "Metaʼ (Cameroon)"
+  },
+  {
+    "localeName": "ps_AF",
+    "title": "Pashto (Afghanistan)"
+  },
+  {
+    "localeName": "en_BS",
+    "title": "English (Bahamas)"
+  },
+  {
+    "localeName": "ug_Arab",
+    "title": "Uyghur (Arabic)"
+  },
+  {
+    "localeName": "da",
+    "title": "Danish"
+  },
+  {
+    "localeName": "ms_Latn_SG",
+    "title": "Malay (Latin, Singapore)"
+  },
+  {
+    "localeName": "ps",
+    "title": "Pashto"
+  },
+  {
+    "localeName": "ln",
+    "title": "Lingala"
+  },
+  {
+    "localeName": "pt",
+    "title": "Portuguese"
+  },
+  {
+    "localeName": "iu_Cans",
+    "title": "Inuktitut (Unified Canadian Aboriginal Syllabics)"
+  },
+  {
+    "localeName": "hi",
+    "title": "Hindi"
+  },
+  {
+    "localeName": "lo",
+    "title": "Lao"
+  },
+  {
+    "localeName": "ebu",
+    "title": "Embu"
+  },
+  {
+    "localeName": "de",
+    "title": "German"
+  },
+  {
+    "localeName": "gu_IN",
+    "title": "Gujarati (India)"
+  },
+  {
+    "localeName": "seh",
+    "title": "Sena"
+  },
+  {
+    "localeName": "en_CX",
+    "title": "English (Christmas Island)"
+  },
+  {
+    "localeName": "en_ZM",
+    "title": "English (Zambia)"
+  },
+  {
+    "localeName": "tzm_Latn_MA",
+    "title": "Central Atlas Tamazight (Latin, Morocco)"
+  },
+  {
+    "localeName": "fr_HT",
+    "title": "French (Haiti)"
+  },
+  {
+    "localeName": "fr_GP",
+    "title": "French (Guadeloupe)"
+  },
+  {
+    "localeName": "lt",
+    "title": "Lithuanian"
+  },
+  {
+    "localeName": "lu",
+    "title": "Luba-Katanga"
+  },
+  {
+    "localeName": "ln_CD",
+    "title": "Lingala (Congo - Kinshasa)"
+  },
+  {
+    "localeName": "vai_Latn",
+    "title": "Vai (Latin)"
+  },
+  {
+    "localeName": "el_GR",
+    "title": "Greek (Greece)"
+  },
+  {
+    "localeName": "lv",
+    "title": "Latvian"
+  },
+  {
+    "localeName": "en_KE",
+    "title": "English (Kenya)"
+  },
+  {
+    "localeName": "sbp",
+    "title": "Sangu"
+  },
+  {
+    "localeName": "hr",
+    "title": "Croatian"
+  },
+  {
+    "localeName": "en_CY",
+    "title": "English (Cyprus)"
+  },
+  {
+    "localeName": "es_GT",
+    "title": "Spanish (Guatemala)"
+  },
+  {
+    "localeName": "twq_NE",
+    "title": "Tasawaq (Niger)"
+  },
+  {
+    "localeName": "zh_Hant_HK",
+    "title": "Chinese (Traditional, Hong Kong SAR China)"
+  },
+  {
+    "localeName": "kln_KE",
+    "title": "Kalenjin (Kenya)"
+  },
+  {
+    "localeName": "fr_GQ",
+    "title": "French (Equatorial Guinea)"
+  },
+  {
+    "localeName": "chr",
+    "title": "Cherokee"
+  },
+  {
+    "localeName": "hu",
+    "title": "Hungarian"
+  },
+  {
+    "localeName": "es_UY",
+    "title": "Spanish (Uruguay)"
+  },
+  {
+    "localeName": "fr_CA",
+    "title": "French (Canada)"
+  },
+  {
+    "localeName": "en_NR",
+    "title": "English (Nauru)"
+  },
+  {
+    "localeName": "mer",
+    "title": "Meru"
+  },
+  {
+    "localeName": "shi",
+    "title": "Tachelhit"
+  },
+  {
+    "localeName": "es_PE",
+    "title": "Spanish (Peru)"
+  },
+  {
+    "localeName": "fr_SN",
+    "title": "French (Senegal)"
+  },
+  {
+    "localeName": "bez",
+    "title": "Bena"
+  },
+  {
+    "localeName": "sw_TZ",
+    "title": "Swahili (Tanzania)"
+  },
+  {
+    "localeName": "wae_CH",
+    "title": "Walser (Switzerland)"
+  },
+  {
+    "localeName": "kkj",
+    "title": "Kako"
+  },
+  {
+    "localeName": "hy",
+    "title": "Armenian"
+  },
+  {
+    "localeName": "kk_Cyrl_KZ",
+    "title": "Kazakh (Cyrillic, Kazakhstan)"
+  },
+  {
+    "localeName": "en_CZ",
+    "title": "English (Czech Republic)"
+  },
+  {
+    "localeName": "teo_KE",
+    "title": "Teso (Kenya)"
+  },
+  {
+    "localeName": "teo",
+    "title": "Teso"
+  },
+  {
+    "localeName": "dz_BT",
+    "title": "Dzongkha (Bhutan)"
+  },
+  {
+    "localeName": "ar_JO",
+    "title": "Arabic (Jordan)"
+  },
+  {
+    "localeName": "mer_KE",
+    "title": "Meru (Kenya)"
+  },
+  {
+    "localeName": "khq",
+    "title": "Koyra Chiini"
+  },
+  {
+    "localeName": "ln_CF",
+    "title": "Lingala (Central African Republic)"
+  },
+  {
+    "localeName": "nn_NO",
+    "title": "Norwegian Nynorsk (Norway)"
+  },
+  {
+    "localeName": "en_MO",
+    "title": "English (Macau SAR China)"
+  },
+  {
+    "localeName": "ar_TD",
+    "title": "Arabic (Chad)"
+  },
+  {
+    "localeName": "dz",
+    "title": "Dzongkha"
+  },
+  {
+    "localeName": "ses",
+    "title": "Koyraboro Senni"
+  },
+  {
+    "localeName": "en_BW",
+    "title": "English (Botswana)"
+  },
+  {
+    "localeName": "en_AS",
+    "title": "English (American Samoa)"
+  },
+  {
+    "localeName": "ar_IL",
+    "title": "Arabic (Israel)"
+  },
+  {
+    "localeName": "ms_Latn_BN",
+    "title": "Malay (Latin, Brunei)"
+  },
+  {
+    "localeName": "bo_CN",
+    "title": "Tibetan (China)"
+  },
+  {
+    "localeName": "nnh",
+    "title": "Ngiemboon"
+  },
+  {
+    "localeName": "teo_UG",
+    "title": "Teso (Uganda)"
+  },
+  {
+    "localeName": "hy_AM",
+    "title": "Armenian (Armenia)"
+  },
+  {
+    "localeName": "ln_CG",
+    "title": "Lingala (Congo - Brazzaville)"
+  },
+  {
+    "localeName": "sr_Latn_BA",
+    "title": "Serbian (Latin, Bosnia & Herzegovina)"
+  },
+  {
+    "localeName": "en_MP",
+    "title": "English (Northern Mariana Islands)"
+  },
+  {
+    "localeName": "ksb_TZ",
+    "title": "Shambala (Tanzania)"
+  },
+  {
+    "localeName": "ar_SA",
+    "title": "Arabic (Saudi Arabia)"
+  },
+  {
+    "localeName": "smn_FI",
+    "title": "Inari Sami (Finland)"
+  },
+  {
+    "localeName": "ar_LY",
+    "title": "Arabic (Libya)"
+  },
+  {
+    "localeName": "en_AT",
+    "title": "English (Austria)"
+  },
+  {
+    "localeName": "so_KE",
+    "title": "Somali (Kenya)"
+  },
+  {
+    "localeName": "fr_CD",
+    "title": "French (Congo - Kinshasa)"
+  },
+  {
+    "localeName": "af_NA",
+    "title": "Afrikaans (Namibia)"
+  },
+  {
+    "localeName": "en_NU",
+    "title": "English (Niue)"
+  },
+  {
+    "localeName": "es_PH",
+    "title": "Spanish (Philippines)"
+  },
+  {
+    "localeName": "en_KI",
+    "title": "English (Kiribati)"
+  },
+  {
+    "localeName": "en_JE",
+    "title": "English (Jersey)"
+  },
+  {
+    "localeName": "lkt",
+    "title": "Lakota"
+  },
+  {
+    "localeName": "en_AU",
+    "title": "English (Australia)"
+  },
+  {
+    "localeName": "fa_IR",
+    "title": "Persian (Iran)"
+  },
+  {
+    "localeName": "ky_Cyrl",
+    "title": "Kyrgyz (Cyrillic)"
+  },
+  {
+    "localeName": "uz_Latn_UZ",
+    "title": "Uzbek (Latin, Uzbekistan)"
+  },
+  {
+    "localeName": "zh_Hans_CN",
+    "title": "Chinese (Simplified, China)"
+  },
+  {
+    "localeName": "ewo_CM",
+    "title": "Ewondo (Cameroon)"
+  },
+  {
+    "localeName": "fr_PF",
+    "title": "French (French Polynesia)"
+  },
+  {
+    "localeName": "ca_IT",
+    "title": "Catalan (Italy)"
+  },
+  {
+    "localeName": "en_BZ",
+    "title": "English (Belize)"
+  },
+  {
+    "localeName": "ar_KW",
+    "title": "Arabic (Kuwait)"
+  },
+  {
+    "localeName": "pt_GW",
+    "title": "Portuguese (Guinea-Bissau)"
+  },
+  {
+    "localeName": "fr_FR",
+    "title": "French (France)"
+  },
+  {
+    "localeName": "am_ET",
+    "title": "Amharic (Ethiopia)"
+  },
+  {
+    "localeName": "en_VC",
+    "title": "English (St. Vincent & Grenadines)"
+  },
+  {
+    "localeName": "fr_DJ",
+    "title": "French (Djibouti)"
+  },
+  {
+    "localeName": "fr_CF",
+    "title": "French (Central African Republic)"
+  },
+  {
+    "localeName": "es_SV",
+    "title": "Spanish (El Salvador)"
+  },
+  {
+    "localeName": "en_MS",
+    "title": "English (Montserrat)"
+  },
+  {
+    "localeName": "pt_ST",
+    "title": "Portuguese (São Tomé & Príncipe)"
+  },
+  {
+    "localeName": "ar_SD",
+    "title": "Arabic (Sudan)"
+  },
+  {
+    "localeName": "luy_KE",
+    "title": "Luyia (Kenya)"
+  },
+  {
+    "localeName": "gd_GB",
+    "title": "Scottish Gaelic (United Kingdom)"
+  },
+  {
+    "localeName": "de_LI",
+    "title": "German (Liechtenstein)"
+  },
+  {
+    "localeName": "fr_CG",
+    "title": "French (Congo - Brazzaville)"
+  },
+  {
+    "localeName": "ckb_IQ",
+    "title": "Central Kurdish (Iraq)"
+  },
+  {
+    "localeName": "zh_Hans_SG",
+    "title": "Chinese (Simplified, Singapore)"
+  },
+  {
+    "localeName": "en_MT",
+    "title": "English (Malta)"
+  },
+  {
+    "localeName": "ewo",
+    "title": "Ewondo"
+  },
+  {
+    "localeName": "af_ZA",
+    "title": "Afrikaans (South Africa)"
+  },
+  {
+    "localeName": "os_GE",
+    "title": "Ossetic (Georgia)"
+  },
+  {
+    "localeName": "om_KE",
+    "title": "Oromo (Kenya)"
+  },
+  {
+    "localeName": "nl_SR",
+    "title": "Dutch (Suriname)"
+  },
+  {
+    "localeName": "es_ES",
+    "title": "Spanish (Spain)"
+  },
+  {
+    "localeName": "es_DO",
+    "title": "Spanish (Dominican Republic)"
+  },
+  {
+    "localeName": "ar_IQ",
+    "title": "Arabic (Iraq)"
+  },
+  {
+    "localeName": "fr_CH",
+    "title": "French (Switzerland)"
+  },
+  {
+    "localeName": "nnh_CM",
+    "title": "Ngiemboon (Cameroon)"
+  },
+  {
+    "localeName": "es_419",
+    "title": "Spanish (Latin America)"
+  },
+  {
+    "localeName": "en_MU",
+    "title": "English (Mauritius)"
+  },
+  {
+    "localeName": "bm_Latn",
+    "title": "Bambara (Latin)"
+  },
+  {
+    "localeName": "en_US_POSIX",
+    "title": "English (United States, Computer)"
+  },
+  {
+    "localeName": "yav_CM",
+    "title": "Yangben (Cameroon)"
+  },
+  {
+    "localeName": "luo_KE",
+    "title": "Luo (Kenya)"
+  },
+  {
+    "localeName": "dua_CM",
+    "title": "Duala (Cameroon)"
+  },
+  {
+    "localeName": "et_EE",
+    "title": "Estonian (Estonia)"
+  },
+  {
+    "localeName": "en_IE",
+    "title": "English (Ireland)"
+  },
+  {
+    "localeName": "ak_GH",
+    "title": "Akan (Ghana)"
+  },
+  {
+    "localeName": "rwk",
+    "title": "Rwa"
+  },
+  {
+    "localeName": "es_CL",
+    "title": "Spanish (Chile)"
+  },
+  {
+    "localeName": "kea_CV",
+    "title": "Kabuverdianu (Cape Verde)"
+  },
+  {
+    "localeName": "fr_CI",
+    "title": "French (Côte d’Ivoire)"
+  },
+  {
+    "localeName": "ckb_IR",
+    "title": "Central Kurdish (Iran)"
+  },
+  {
+    "localeName": "fr_BE",
+    "title": "French (Belgium)"
+  },
+  {
+    "localeName": "se",
+    "title": "Northern Sami"
+  },
+  {
+    "localeName": "en_NZ",
+    "title": "English (New Zealand)"
+  },
+  {
+    "localeName": "ky_Cyrl_KG",
+    "title": "Kyrgyz (Cyrillic, Kyrgyzstan)"
+  },
+  {
+    "localeName": "en_LR",
+    "title": "English (Liberia)"
+  },
+  {
+    "localeName": "en_KN",
+    "title": "English (St. Kitts & Nevis)"
+  },
+  {
+    "localeName": "nb_SJ",
+    "title": "Norwegian Bokmål (Svalbard & Jan Mayen)"
+  },
+  {
+    "localeName": "sg",
+    "title": "Sango"
+  },
+  {
+    "localeName": "sr_Cyrl_RS",
+    "title": "Serbian (Cyrillic, Serbia)"
+  },
+  {
+    "localeName": "ru_RU",
+    "title": "Russian (Russia)"
+  },
+  {
+    "localeName": "en_ZW",
+    "title": "English (Zimbabwe)"
+  },
+  {
+    "localeName": "sv_AX",
+    "title": "Swedish (Åland Islands)"
+  },
+  {
+    "localeName": "si",
+    "title": "Sinhala"
+  },
+  {
+    "localeName": "ga_IE",
+    "title": "Irish (Ireland)"
+  },
+  {
+    "localeName": "en_VG",
+    "title": "English (British Virgin Islands)"
+  },
+  {
+    "localeName": "ff_MR",
+    "title": "Fulah (Mauritania)"
+  },
+  {
+    "localeName": "sk",
+    "title": "Slovak"
+  },
+  {
+    "localeName": "agq_CM",
+    "title": "Aghem (Cameroon)"
+  },
+  {
+    "localeName": "fr_BF",
+    "title": "French (Burkina Faso)"
+  },
+  {
+    "localeName": "naq_NA",
+    "title": "Nama (Namibia)"
+  },
+  {
+    "localeName": "sl",
+    "title": "Slovenian"
+  },
+  {
+    "localeName": "en_MW",
+    "title": "English (Malawi)"
+  },
+  {
+    "localeName": "mr_IN",
+    "title": "Marathi (India)"
+  },
+  {
+    "localeName": "az_Latn",
+    "title": "Azerbaijani (Latin)"
+  },
+  {
+    "localeName": "en_LS",
+    "title": "English (Lesotho)"
+  },
+  {
+    "localeName": "de_AT",
+    "title": "German (Austria)"
+  },
+  {
+    "localeName": "ka",
+    "title": "Georgian"
+  },
+  {
+    "localeName": "sn",
+    "title": "Shona"
+  },
+  {
+    "localeName": "sr_Latn_ME",
+    "title": "Serbian (Latin, Montenegro)"
+  },
+  {
+    "localeName": "fr_NC",
+    "title": "French (New Caledonia)"
+  },
+  {
+    "localeName": "so",
+    "title": "Somali"
+  },
+  {
+    "localeName": "is_IS",
+    "title": "Icelandic (Iceland)"
+  },
+  {
+    "localeName": "twq",
+    "title": "Tasawaq"
+  },
+  {
+    "localeName": "ig_NG",
+    "title": "Igbo (Nigeria)"
+  },
+  {
+    "localeName": "sq",
+    "title": "Albanian"
+  },
+  {
+    "localeName": "fo_FO",
+    "title": "Faroese (Faroe Islands)"
+  },
+  {
+    "localeName": "sr",
+    "title": "Serbian"
+  },
+  {
+    "localeName": "tzm",
+    "title": "Central Atlas Tamazight"
+  },
+  {
+    "localeName": "ga",
+    "title": "Irish"
+  },
+  {
+    "localeName": "om",
+    "title": "Oromo"
+  },
+  {
+    "localeName": "en_LT",
+    "title": "English (Lithuania)"
+  },
+  {
+    "localeName": "bas_CM",
+    "title": "Basaa (Cameroon)"
+  },
+  {
+    "localeName": "se_NO",
+    "title": "Northern Sami (Norway)"
+  },
+  {
+    "localeName": "ki",
+    "title": "Kikuyu"
+  },
+  {
+    "localeName": "nl_BE",
+    "title": "Dutch (Belgium)"
+  },
+  {
+    "localeName": "ar_QA",
+    "title": "Arabic (Qatar)"
+  },
+  {
+    "localeName": "gd",
+    "title": "Scottish Gaelic"
+  },
+  {
+    "localeName": "sv",
+    "title": "Swedish"
+  },
+  {
+    "localeName": "kk",
+    "title": "Kazakh"
+  },
+  {
+    "localeName": "sw",
+    "title": "Swahili"
+  },
+  {
+    "localeName": "es_CO",
+    "title": "Spanish (Colombia)"
+  },
+  {
+    "localeName": "az_Latn_AZ",
+    "title": "Azerbaijani (Latin, Azerbaijan)"
+  },
+  {
+    "localeName": "rn_BI",
+    "title": "Rundi (Burundi)"
+  },
+  {
+    "localeName": "or",
+    "title": "Oriya"
+  },
+  {
+    "localeName": "kl",
+    "title": "Kalaallisut"
+  },
+  {
+    "localeName": "ca",
+    "title": "Catalan"
+  },
+  {
+    "localeName": "en_VI",
+    "title": "English (U.S. Virgin Islands)"
+  },
+  {
+    "localeName": "km",
+    "title": "Khmer"
+  },
+  {
+    "localeName": "os",
+    "title": "Ossetic"
+  },
+  {
+    "localeName": "en_MY",
+    "title": "English (Malaysia)"
+  },
+  {
+    "localeName": "kn",
+    "title": "Kannada"
+  },
+  {
+    "localeName": "en_LU",
+    "title": "English (Luxembourg)"
+  },
+  {
+    "localeName": "fr_SY",
+    "title": "French (Syria)"
+  },
+  {
+    "localeName": "ar_TN",
+    "title": "Arabic (Tunisia)"
+  },
+  {
+    "localeName": "en_JM",
+    "title": "English (Jamaica)"
+  },
+  {
+    "localeName": "fr_PM",
+    "title": "French (St. Pierre & Miquelon)"
+  },
+  {
+    "localeName": "ko",
+    "title": "Korean"
+  },
+  {
+    "localeName": "fr_NE",
+    "title": "French (Niger)"
+  },
+  {
+    "localeName": "fr_MA",
+    "title": "French (Morocco)"
+  },
+  {
+    "localeName": "gl",
+    "title": "Galician"
+  },
+  {
+    "localeName": "ru_MD",
+    "title": "Russian (Moldova)"
+  },
+  {
+    "localeName": "saq_KE",
+    "title": "Samburu (Kenya)"
+  },
+  {
+    "localeName": "ks",
+    "title": "Kashmiri"
+  },
+  {
+    "localeName": "fr_CM",
+    "title": "French (Cameroon)"
+  },
+  {
+    "localeName": "lb_LU",
+    "title": "Luxembourgish (Luxembourg)"
+  },
+  {
+    "localeName": "gv_IM",
+    "title": "Manx (Isle of Man)"
+  },
+  {
+    "localeName": "fr_BI",
+    "title": "French (Burundi)"
+  },
+  {
+    "localeName": "en_LV",
+    "title": "English (Latvia)"
+  },
+  {
+    "localeName": "ks_Arab_IN",
+    "title": "Kashmiri (Arabic, India)"
+  },
+  {
+    "localeName": "es_NI",
+    "title": "Spanish (Nicaragua)"
+  },
+  {
+    "localeName": "en_GB",
+    "title": "English (United Kingdom)"
+  },
+  {
+    "localeName": "kw",
+    "title": "Cornish"
+  },
+  {
+    "localeName": "nl_SX",
+    "title": "Dutch (Sint Maarten)"
+  },
+  {
+    "localeName": "dav_KE",
+    "title": "Taita (Kenya)"
+  },
+  {
+    "localeName": "tr_CY",
+    "title": "Turkish (Cyprus)"
+  },
+  {
+    "localeName": "ky",
+    "title": "Kyrgyz"
+  },
+  {
+    "localeName": "en_UG",
+    "title": "English (Uganda)"
+  },
+  {
+    "localeName": "nus_SD",
+    "title": "Nuer (Sudan)"
+  },
+  {
+    "localeName": "en_TC",
+    "title": "English (Turks & Caicos Islands)"
+  },
+  {
+    "localeName": "tzm_Latn",
+    "title": "Central Atlas Tamazight (Latin)"
+  },
+  {
+    "localeName": "ar_EG",
+    "title": "Arabic (Egypt)"
+  },
+  {
+    "localeName": "fr_BJ",
+    "title": "French (Benin)"
+  },
+  {
+    "localeName": "gu",
+    "title": "Gujarati"
+  },
+  {
+    "localeName": "es_PR",
+    "title": "Spanish (Puerto Rico)"
+  },
+  {
+    "localeName": "fr_RW",
+    "title": "French (Rwanda)"
+  },
+  {
+    "localeName": "sr_Cyrl_BA",
+    "title": "Serbian (Cyrillic, Bosnia & Herzegovina)"
+  },
+  {
+    "localeName": "gv",
+    "title": "Manx"
+  },
+  {
+    "localeName": "fr_MC",
+    "title": "French (Monaco)"
+  },
+  {
+    "localeName": "cs",
+    "title": "Czech"
+  },
+  {
+    "localeName": "bez_TZ",
+    "title": "Bena (Tanzania)"
+  },
+  {
+    "localeName": "es_CR",
+    "title": "Spanish (Costa Rica)"
+  },
+  {
+    "localeName": "asa_TZ",
+    "title": "Asu (Tanzania)"
+  },
+  {
+    "localeName": "ar_EH",
+    "title": "Arabic (Western Sahara)"
+  },
+  {
+    "localeName": "ms_Arab_BN",
+    "title": "Malay (Arabic, Brunei)"
+  },
+  {
+    "localeName": "mn_Cyrl",
+    "title": "Mongolian (Cyrillic)"
+  },
+  {
+    "localeName": "sbp_TZ",
+    "title": "Sangu (Tanzania)"
+  },
+  {
+    "localeName": "en_IL",
+    "title": "English (Israel)"
+  },
+  {
+    "localeName": "ha_Latn_NE",
+    "title": "Hausa (Latin, Niger)"
+  },
+  {
+    "localeName": "lt_LT",
+    "title": "Lithuanian (Lithuania)"
+  },
+  {
+    "localeName": "mfe",
+    "title": "Morisyen"
+  },
+  {
+    "localeName": "en_GD",
+    "title": "English (Grenada)"
+  },
+  {
+    "localeName": "cy",
+    "title": "Welsh"
+  },
+  {
+    "localeName": "ca_FR",
+    "title": "Catalan (France)"
+  },
+  {
+    "localeName": "es_BO",
+    "title": "Spanish (Bolivia)"
+  },
+  {
+    "localeName": "fr_BL",
+    "title": "French (St. Barthélemy)"
+  },
+  {
+    "localeName": "bn_IN",
+    "title": "Bengali (India)"
+  },
+  {
+    "localeName": "uz_Cyrl_UZ",
+    "title": "Uzbek (Cyrillic, Uzbekistan)"
+  },
+  {
+    "localeName": "az_Cyrl",
+    "title": "Azerbaijani (Cyrillic)"
+  },
+  {
+    "localeName": "en_IM",
+    "title": "English (Isle of Man)"
+  },
+  {
+    "localeName": "sw_KE",
+    "title": "Swahili (Kenya)"
+  },
+  {
+    "localeName": "en_SB",
+    "title": "English (Solomon Islands)"
+  },
+  {
+    "localeName": "pa_Arab",
+    "title": "Punjabi (Arabic)"
+  },
+  {
+    "localeName": "ur_PK",
+    "title": "Urdu (Pakistan)"
+  },
+  {
+    "localeName": "haw_US",
+    "title": "Hawaiian (United States)"
+  },
+  {
+    "localeName": "ar_SO",
+    "title": "Arabic (Somalia)"
+  },
+  {
+    "localeName": "en_IN",
+    "title": "English (India)"
+  },
+  {
+    "localeName": "ha_Latn",
+    "title": "Hausa (Latin)"
+  },
+  {
+    "localeName": "fil",
+    "title": "Filipino"
+  },
+  {
+    "localeName": "fr_MF",
+    "title": "French (St. Martin)"
+  },
+  {
+    "localeName": "en_WS",
+    "title": "English (Samoa)"
+  },
+  {
+    "localeName": "es_CU",
+    "title": "Spanish (Cuba)"
+  },
+  {
+    "localeName": "ja_JP",
+    "title": "Japanese (Japan)"
+  },
+  {
+    "localeName": "fy_NL",
+    "title": "Western Frisian (Netherlands)"
+  },
+  {
+    "localeName": "en_SC",
+    "title": "English (Seychelles)"
+  },
+  {
+    "localeName": "en_IO",
+    "title": "English (British Indian Ocean Territory)"
+  },
+  {
+    "localeName": "pt_PT",
+    "title": "Portuguese (Portugal)"
+  },
+  {
+    "localeName": "en_HK",
+    "title": "English (Hong Kong SAR China)"
+  },
+  {
+    "localeName": "en_GG",
+    "title": "English (Guernsey)"
+  },
+  {
+    "localeName": "fr_MG",
+    "title": "French (Madagascar)"
+  },
+  {
+    "localeName": "de_LU",
+    "title": "German (Luxembourg)"
+  },
+  {
+    "localeName": "ms_Latn_MY",
+    "title": "Malay (Latin, Malaysia)"
+  },
+  {
+    "localeName": "tg_Cyrl",
+    "title": "Tajik (Cyrillic)"
+  },
+  {
+    "localeName": "en_SD",
+    "title": "English (Sudan)"
+  },
+  {
+    "localeName": "shi_Tfng",
+    "title": "Tachelhit (Tifinagh)"
+  },
+  {
+    "localeName": "ln_AO",
+    "title": "Lingala (Angola)"
+  },
+  {
+    "localeName": "ug_Arab_CN",
+    "title": "Uyghur (Arabic, China)"
+  },
+  {
+    "localeName": "as_IN",
+    "title": "Assamese (India)"
+  },
+  {
+    "localeName": "en_GH",
+    "title": "English (Ghana)"
+  },
+  {
+    "localeName": "ro_RO",
+    "title": "Romanian (Romania)"
+  },
+  {
+    "localeName": "jgo_CM",
+    "title": "Ngomba (Cameroon)"
+  },
+  {
+    "localeName": "dua",
+    "title": "Duala"
+  },
+  {
+    "localeName": "en_UM",
+    "title": "English (U.S. Outlying Islands)"
+  },
+  {
+    "localeName": "en_SE",
+    "title": "English (Sweden)"
+  },
+  {
+    "localeName": "kn_IN",
+    "title": "Kannada (India)"
+  },
+  {
+    "localeName": "en_KY",
+    "title": "English (Cayman Islands)"
+  },
+  {
+    "localeName": "vun_TZ",
+    "title": "Vunjo (Tanzania)"
+  },
+  {
+    "localeName": "kln",
+    "title": "Kalenjin"
+  },
+  {
+    "localeName": "en_GI",
+    "title": "English (Gibraltar)"
+  },
+  {
+    "localeName": "ca_ES",
+    "title": "Catalan (Spain)"
+  },
+  {
+    "localeName": "rof",
+    "title": "Rombo"
+  },
+  {
+    "localeName": "pt_CV",
+    "title": "Portuguese (Cape Verde)"
+  },
+  {
+    "localeName": "kok",
+    "title": "Konkani"
+  },
+  {
+    "localeName": "pt_BR",
+    "title": "Portuguese (Brazil)"
+  },
+  {
+    "localeName": "ar_DJ",
+    "title": "Arabic (Djibouti)"
+  },
+  {
+    "localeName": "yi_001",
+    "title": "Yiddish (World)"
+  },
+  {
+    "localeName": "fi_FI",
+    "title": "Finnish (Finland)"
+  },
+  {
+    "localeName": "tg_Cyrl_TJ",
+    "title": "Tajik (Cyrillic, Tajikistan)"
+  },
+  {
+    "localeName": "zh",
+    "title": "Chinese"
+  },
+  {
+    "localeName": "es_PY",
+    "title": "Spanish (Paraguay)"
+  },
+  {
+    "localeName": "ar_SS",
+    "title": "Arabic (South Sudan)"
+  },
+  {
+    "localeName": "mua",
+    "title": "Mundang"
+  },
+  {
+    "localeName": "sr_Cyrl_ME",
+    "title": "Serbian (Cyrillic, Montenegro)"
+  },
+  {
+    "localeName": "vai_Vaii_LR",
+    "title": "Vai (Vai, Liberia)"
+  },
+  {
+    "localeName": "en_001",
+    "title": "English (World)"
+  },
+  {
+    "localeName": "nl_NL",
+    "title": "Dutch (Netherlands)"
+  },
+  {
+    "localeName": "en_TK",
+    "title": "English (Tokelau)"
+  },
+  {
+    "localeName": "si_LK",
+    "title": "Sinhala (Sri Lanka)"
+  },
+  {
+    "localeName": "en_SG",
+    "title": "English (Singapore)"
+  },
+  {
+    "localeName": "sv_SE",
+    "title": "Swedish (Sweden)"
+  },
+  {
+    "localeName": "fr_DZ",
+    "title": "French (Algeria)"
+  },
+  {
+    "localeName": "ca_AD",
+    "title": "Catalan (Andorra)"
+  },
+  {
+    "localeName": "pt_AO",
+    "title": "Portuguese (Angola)"
+  },
+  {
+    "localeName": "vi",
+    "title": "Vietnamese"
+  },
+  {
+    "localeName": "xog_UG",
+    "title": "Soga (Uganda)"
+  },
+  {
+    "localeName": "xog",
+    "title": "Soga"
+  },
+  {
+    "localeName": "en_IS",
+    "title": "English (Iceland)"
+  },
+  {
+    "localeName": "nb",
+    "title": "Norwegian Bokmål"
+  },
+  {
+    "localeName": "seh_MZ",
+    "title": "Sena (Mozambique)"
+  },
+  {
+    "localeName": "es_AR",
+    "title": "Spanish (Argentina)"
+  },
+  {
+    "localeName": "sk_SK",
+    "title": "Slovak (Slovakia)"
+  },
+  {
+    "localeName": "en_SH",
+    "title": "English (St. Helena)"
+  },
+  {
+    "localeName": "ti_ER",
+    "title": "Tigrinya (Eritrea)"
+  },
+  {
+    "localeName": "nd",
+    "title": "North Ndebele"
+  },
+  {
+    "localeName": "az_Cyrl_AZ",
+    "title": "Azerbaijani (Cyrillic, Azerbaijan)"
+  },
+  {
+    "localeName": "zu",
+    "title": "Zulu"
+  },
+  {
+    "localeName": "ne",
+    "title": "Nepali"
+  },
+  {
+    "localeName": "nd_ZW",
+    "title": "North Ndebele (Zimbabwe)"
+  },
+  {
+    "localeName": "el_CY",
+    "title": "Greek (Cyprus)"
+  },
+  {
+    "localeName": "en_IT",
+    "title": "English (Italy)"
+  },
+  {
+    "localeName": "nl_BQ",
+    "title": "Dutch (Caribbean Netherlands)"
+  },
+  {
+    "localeName": "da_GL",
+    "title": "Danish (Greenland)"
+  },
+  {
+    "localeName": "ja",
+    "title": "Japanese"
+  },
+  {
+    "localeName": "rm",
+    "title": "Romansh"
+  },
+  {
+    "localeName": "fr_ML",
+    "title": "French (Mali)"
+  },
+  {
+    "localeName": "rn",
+    "title": "Rundi"
+  },
+  {
+    "localeName": "en_VU",
+    "title": "English (Vanuatu)"
+  },
+  {
+    "localeName": "rof_TZ",
+    "title": "Rombo (Tanzania)"
+  },
+  {
+    "localeName": "ro",
+    "title": "Romanian"
+  },
+  {
+    "localeName": "ebu_KE",
+    "title": "Embu (Kenya)"
+  },
+  {
+    "localeName": "ru_KG",
+    "title": "Russian (Kyrgyzstan)"
+  },
+  {
+    "localeName": "en_SI",
+    "title": "English (Slovenia)"
+  },
+  {
+    "localeName": "sg_CF",
+    "title": "Sango (Central African Republic)"
+  },
+  {
+    "localeName": "mfe_MU",
+    "title": "Morisyen (Mauritius)"
+  },
+  {
+    "localeName": "nl",
+    "title": "Dutch"
+  },
+  {
+    "localeName": "brx",
+    "title": "Bodo"
+  },
+  {
+    "localeName": "bs_Latn",
+    "title": "Bosnian (Latin)"
+  },
+  {
+    "localeName": "fa",
+    "title": "Persian"
+  },
+  {
+    "localeName": "zgh_MA",
+    "title": "Standard Moroccan Tamazight (Morocco)"
+  },
+  {
+    "localeName": "en_GM",
+    "title": "English (Gambia)"
+  },
+  {
+    "localeName": "shi_Latn",
+    "title": "Tachelhit (Latin)"
+  },
+  {
+    "localeName": "en_FI",
+    "title": "English (Finland)"
+  },
+  {
+    "localeName": "nn",
+    "title": "Norwegian Nynorsk"
+  },
+  {
+    "localeName": "en_EE",
+    "title": "English (Estonia)"
+  },
+  {
+    "localeName": "ru",
+    "title": "Russian"
+  },
+  {
+    "localeName": "kam_KE",
+    "title": "Kamba (Kenya)"
+  },
+  {
+    "localeName": "fur",
+    "title": "Friulian"
+  },
+  {
+    "localeName": "vai_Vaii",
+    "title": "Vai (Vai)"
+  },
+  {
+    "localeName": "ar_ER",
+    "title": "Arabic (Eritrea)"
+  },
+  {
+    "localeName": "ti_ET",
+    "title": "Tigrinya (Ethiopia)"
+  },
+  {
+    "localeName": "rw",
+    "title": "Kinyarwanda"
+  },
+  {
+    "localeName": "ff",
+    "title": "Fulah"
+  },
+  {
+    "localeName": "luo",
+    "title": "Luo"
+  },
+  {
+    "localeName": "fa_AF",
+    "title": "Persian (Afghanistan)"
+  },
+  {
+    "localeName": "ha_Latn_NG",
+    "title": "Hausa (Latin, Nigeria)"
+  },
+  {
+    "localeName": "nl_CW",
+    "title": "Dutch (Curaçao)"
+  },
+  {
+    "localeName": "en_HR",
+    "title": "English (Croatia)"
+  },
+  {
+    "localeName": "en_FJ",
+    "title": "English (Fiji)"
+  },
+  {
+    "localeName": "fi",
+    "title": "Finnish"
+  },
+  {
+    "localeName": "pt_MO",
+    "title": "Portuguese (Macau SAR China)"
+  },
+  {
+    "localeName": "be",
+    "title": "Belarusian"
+  },
+  {
+    "localeName": "en_US",
+    "title": "English (United States)"
+  },
+  {
+    "localeName": "en_TO",
+    "title": "English (Tonga)"
+  },
+  {
+    "localeName": "en_SK",
+    "title": "English (Slovakia)"
+  },
+  {
+    "localeName": "bg",
+    "title": "Bulgarian"
+  },
+  {
+    "localeName": "ru_BY",
+    "title": "Russian (Belarus)"
+  },
+  {
+    "localeName": "it_IT",
+    "title": "Italian (Italy)"
+  },
+  {
+    "localeName": "ml_IN",
+    "title": "Malayalam (India)"
+  },
+  {
+    "localeName": "gsw_CH",
+    "title": "Swiss German (Switzerland)"
+  },
+  {
+    "localeName": "qu_EC",
+    "title": "Quechua (Ecuador)"
+  },
+  {
+    "localeName": "fo",
+    "title": "Faroese"
+  },
+  {
+    "localeName": "sv_FI",
+    "title": "Swedish (Finland)"
+  },
+  {
+    "localeName": "en_FK",
+    "title": "English (Falkland Islands)"
+  },
+  {
+    "localeName": "nus",
+    "title": "Nuer"
+  },
+  {
+    "localeName": "ta_LK",
+    "title": "Tamil (Sri Lanka)"
+  },
+  {
+    "localeName": "vun",
+    "title": "Vunjo"
+  },
+  {
+    "localeName": "sr_Latn",
+    "title": "Serbian (Latin)"
+  },
+  {
+    "localeName": "fr",
+    "title": "French"
+  },
+  {
+    "localeName": "en_SL",
+    "title": "English (Sierra Leone)"
+  },
+  {
+    "localeName": "bm",
+    "title": "Bambara"
+  },
+  {
+    "localeName": "ar_BH",
+    "title": "Arabic (Bahrain)"
+  },
+  {
+    "localeName": "guz",
+    "title": "Gusii"
+  },
+  {
+    "localeName": "bn",
+    "title": "Bengali"
+  },
+  {
+    "localeName": "bo",
+    "title": "Tibetan"
+  },
+  {
+    "localeName": "ar_SY",
+    "title": "Arabic (Syria)"
+  },
+  {
+    "localeName": "lo_LA",
+    "title": "Lao (Laos)"
+  },
+  {
+    "localeName": "ne_NP",
+    "title": "Nepali (Nepal)"
+  },
+  {
+    "localeName": "uz_Latn",
+    "title": "Uzbek (Latin)"
+  },
+  {
+    "localeName": "be_BY",
+    "title": "Belarusian (Belarus)"
+  },
+  {
+    "localeName": "es_IC",
+    "title": "Spanish (Canary Islands)"
+  },
+  {
+    "localeName": "sr_Latn_XK",
+    "title": "Serbian (Latin, Kosovo)"
+  },
+  {
+    "localeName": "ar_MA",
+    "title": "Arabic (Morocco)"
+  },
+  {
+    "localeName": "pa_Guru_IN",
+    "title": "Punjabi (Gurmukhi, India)"
+  },
+  {
+    "localeName": "br",
+    "title": "Breton"
+  },
+  {
+    "localeName": "luy",
+    "title": "Luyia"
+  },
+  {
+    "localeName": "kde_TZ",
+    "title": "Makonde (Tanzania)"
+  },
+  {
+    "localeName": "bs",
+    "title": "Bosnian"
+  },
+  {
+    "localeName": "fy",
+    "title": "Western Frisian"
+  },
+  {
+    "localeName": "fur_IT",
+    "title": "Friulian (Italy)"
+  },
+  {
+    "localeName": "hu_HU",
+    "title": "Hungarian (Hungary)"
+  },
+  {
+    "localeName": "ar_AE",
+    "title": "Arabic (United Arab Emirates)"
+  },
+  {
+    "localeName": "en_HU",
+    "title": "English (Hungary)"
+  },
+  {
+    "localeName": "sah_RU",
+    "title": "Sakha (Russia)"
+  },
+  {
+    "localeName": "zh_Hans",
+    "title": "Chinese (Simplified)"
+  },
+  {
+    "localeName": "en_FM",
+    "title": "English (Micronesia)"
+  },
+  {
+    "localeName": "sq_AL",
+    "title": "Albanian (Albania)"
+  },
+  {
+    "localeName": "ko_KP",
+    "title": "Korean (North Korea)"
+  },
+  {
+    "localeName": "en_150",
+    "title": "English (Europe)"
+  },
+  {
+    "localeName": "en_DE",
+    "title": "English (Germany)"
+  },
+  {
+    "localeName": "fr_MQ",
+    "title": "French (Martinique)"
+  },
+  {
+    "localeName": "en_CA",
+    "title": "English (Canada)"
+  },
+  {
+    "localeName": "hsb_DE",
+    "title": "Upper Sorbian (Germany)"
+  },
+  {
+    "localeName": "en_TR",
+    "title": "English (Turkey)"
+  },
+  {
+    "localeName": "ro_MD",
+    "title": "Romanian (Moldova)"
+  },
+  {
+    "localeName": "es_VE",
+    "title": "Spanish (Venezuela)"
+  },
+  {
+    "localeName": "fr_WF",
+    "title": "French (Wallis & Futuna)"
+  },
+  {
+    "localeName": "mt_MT",
+    "title": "Maltese (Malta)"
+  },
+  {
+    "localeName": "kab",
+    "title": "Kabyle"
+  },
+  {
+    "localeName": "nmg_CM",
+    "title": "Kwasio (Cameroon)"
+  },
+  {
+    "localeName": "en_GR",
+    "title": "English (Greece)"
+  },
+  {
+    "localeName": "ru_UA",
+    "title": "Russian (Ukraine)"
+  },
+  {
+    "localeName": "fr_MR",
+    "title": "French (Mauritania)"
+  },
+  {
+    "localeName": "tk_Latn_TM",
+    "title": "Turkmen (Latin, Turkmenistan)"
+  },
+  {
+    "localeName": "zh_Hans_MO",
+    "title": "Chinese (Simplified, Macau SAR China)"
+  },
+  {
+    "localeName": "mn_Cyrl_MN",
+    "title": "Mongolian (Cyrillic, Mongolia)"
+  },
+  {
+    "localeName": "ff_GN",
+    "title": "Fulah (Guinea)"
+  },
+  {
+    "localeName": "bs_Cyrl",
+    "title": "Bosnian (Cyrillic)"
+  },
+  {
+    "localeName": "sw_UG",
+    "title": "Swahili (Uganda)"
+  },
+  {
+    "localeName": "ko_KR",
+    "title": "Korean (South Korea)"
+  },
+  {
+    "localeName": "en_DG",
+    "title": "English (Diego Garcia)"
+  },
+  {
+    "localeName": "bo_IN",
+    "title": "Tibetan (India)"
+  },
+  {
+    "localeName": "en_CC",
+    "title": "English (Cocos [Keeling] Islands)"
+  },
+  {
+    "localeName": "shi_Tfng_MA",
+    "title": "Tachelhit (Tifinagh, Morocco)"
+  },
+  {
+    "localeName": "lag",
+    "title": "Langi"
+  },
+  {
+    "localeName": "it_SM",
+    "title": "Italian (San Marino)"
+  },
+  {
+    "localeName": "os_RU",
+    "title": "Ossetic (Russia)"
+  },
+  {
+    "localeName": "en_TT",
+    "title": "English (Trinidad & Tobago)"
+  },
+  {
+    "localeName": "ms_Arab_MY",
+    "title": "Malay (Arabic, Malaysia)"
+  },
+  {
+    "localeName": "sq_MK",
+    "title": "Albanian (Macedonia)"
+  },
+  {
+    "localeName": "ms_Latn",
+    "title": "Malay (Latin)"
+  },
+  {
+    "localeName": "bem_ZM",
+    "title": "Bemba (Zambia)"
+  },
+  {
+    "localeName": "kde",
+    "title": "Makonde"
+  },
+  {
+    "localeName": "ar_OM",
+    "title": "Arabic (Oman)"
+  },
+  {
+    "localeName": "cgg",
+    "title": "Chiga"
+  },
+  {
+    "localeName": "bas",
+    "title": "Basaa"
+  },
+  {
+    "localeName": "bm_Latn_ML",
+    "title": "Bambara (Latin, Mali)"
+  },
+  {
+    "localeName": "kam",
+    "title": "Kamba"
+  },
+  {
+    "localeName": "es_MX",
+    "title": "Spanish (Mexico)"
+  },
+  {
+    "localeName": "sah",
+    "title": "Sakha"
+  },
+  {
+    "localeName": "wae",
+    "title": "Walser"
+  },
+  {
+    "localeName": "en_GU",
+    "title": "English (Guam)"
+  },
+  {
+    "localeName": "zh_Hant",
+    "title": "Chinese (Traditional)"
+  },
+  {
+    "localeName": "fr_MU",
+    "title": "French (Mauritius)"
+  },
+  {
+    "localeName": "fr_KM",
+    "title": "French (Comoros)"
+  },
+  {
+    "localeName": "ar_LB",
+    "title": "Arabic (Lebanon)"
+  },
+  {
+    "localeName": "en_BA",
+    "title": "English (Bosnia & Herzegovina)"
+  },
+  {
+    "localeName": "en_TV",
+    "title": "English (Tuvalu)"
+  },
+  {
+    "localeName": "sr_Cyrl",
+    "title": "Serbian (Cyrillic)"
+  },
+  {
+    "localeName": "dje",
+    "title": "Zarma"
+  },
+  {
+    "localeName": "kab_DZ",
+    "title": "Kabyle (Algeria)"
+  },
+  {
+    "localeName": "fil_PH",
+    "title": "Filipino (Philippines)"
+  },
+  {
+    "localeName": "se_SE",
+    "title": "Northern Sami (Sweden)"
+  },
+  {
+    "localeName": "vai",
+    "title": "Vai"
+  },
+  {
+    "localeName": "hr_HR",
+    "title": "Croatian (Croatia)"
+  },
+  {
+    "localeName": "bs_Latn_BA",
+    "title": "Bosnian (Latin, Bosnia & Herzegovina)"
+  },
+  {
+    "localeName": "nl_AW",
+    "title": "Dutch (Aruba)"
+  },
+  {
+    "localeName": "dav",
+    "title": "Taita"
+  },
+  {
+    "localeName": "so_SO",
+    "title": "Somali (Somalia)"
+  },
+  {
+    "localeName": "ar_PS",
+    "title": "Arabic (Palestinian Territories)"
+  },
+  {
+    "localeName": "en_FR",
+    "title": "English (France)"
+  },
+  {
+    "localeName": "uz_Cyrl",
+    "title": "Uzbek (Cyrillic)"
+  },
+  {
+    "localeName": "ff_SN",
+    "title": "Fulah (Senegal)"
+  },
+  {
+    "localeName": "en_BB",
+    "title": "English (Barbados)"
+  },
+  {
+    "localeName": "ki_KE",
+    "title": "Kikuyu (Kenya)"
+  },
+  {
+    "localeName": "naq",
+    "title": "Nama"
+  },
+  {
+    "localeName": "en_SS",
+    "title": "English (South Sudan)"
+  },
+  {
+    "localeName": "mg_MG",
+    "title": "Malagasy (Madagascar)"
+  },
+  {
+    "localeName": "mas_KE",
+    "title": "Masai (Kenya)"
+  },
+  {
+    "localeName": "en_RO",
+    "title": "English (Romania)"
+  },
+  {
+    "localeName": "en_PG",
+    "title": "English (Papua New Guinea)"
+  },
+  {
+    "localeName": "mgh",
+    "title": "Makhuwa-Meetto"
+  },
+  {
+    "localeName": "dyo_SN",
+    "title": "Jola-Fonyi (Senegal)"
+  },
+  {
+    "localeName": "mas",
+    "title": "Masai"
+  },
+  {
+    "localeName": "agq",
+    "title": "Aghem"
+  },
+  {
+    "localeName": "bn_BD",
+    "title": "Bengali (Bangladesh)"
+  },
+  {
+    "localeName": "haw",
+    "title": "Hawaiian"
+  },
+  {
+    "localeName": "yi",
+    "title": "Yiddish"
+  },
+  {
+    "localeName": "nb_NO",
+    "title": "Norwegian Bokmål (Norway)"
+  },
+  {
+    "localeName": "da_DK",
+    "title": "Danish (Denmark)"
+  },
+  {
+    "localeName": "en_DK",
+    "title": "English (Denmark)"
+  },
+  {
+    "localeName": "saq",
+    "title": "Samburu"
+  },
+  {
+    "localeName": "ug",
+    "title": "Uyghur"
+  },
+  {
+    "localeName": "cy_GB",
+    "title": "Welsh (United Kingdom)"
+  },
+  {
+    "localeName": "fr_YT",
+    "title": "French (Mayotte)"
+  },
+  {
+    "localeName": "jmc",
+    "title": "Machame"
+  },
+  {
+    "localeName": "ses_ML",
+    "title": "Koyraboro Senni (Mali)"
+  },
+  {
+    "localeName": "en_PH",
+    "title": "English (Philippines)"
+  },
+  {
+    "localeName": "de_DE",
+    "title": "German (Germany)"
+  },
+  {
+    "localeName": "ar_YE",
+    "title": "Arabic (Yemen)"
+  },
+  {
+    "localeName": "yo",
+    "title": "Yoruba"
+  },
+  {
+    "localeName": "lkt_US",
+    "title": "Lakota (United States)"
+  },
+  {
+    "localeName": "uz_Arab_AF",
+    "title": "Uzbek (Arabic, Afghanistan)"
+  },
+  {
+    "localeName": "jgo",
+    "title": "Ngomba"
+  },
+  {
+    "localeName": "sl_SI",
+    "title": "Slovenian (Slovenia)"
+  },
+  {
+    "localeName": "uk",
+    "title": "Ukrainian"
+  },
+  {
+    "localeName": "en_CH",
+    "title": "English (Switzerland)"
+  },
+  {
+    "localeName": "asa",
+    "title": "Asu"
+  },
+  {
+    "localeName": "lg_UG",
+    "title": "Ganda (Uganda)"
+  },
+  {
+    "localeName": "qu_PE",
+    "title": "Quechua (Peru)"
+  },
+  {
+    "localeName": "mgo",
+    "title": "Metaʼ"
+  },
+  {
+    "localeName": "id_ID",
+    "title": "Indonesian (Indonesia)"
+  },
+  {
+    "localeName": "en_NA",
+    "title": "English (Namibia)"
+  },
+  {
+    "localeName": "en_GY",
+    "title": "English (Guyana)"
+  },
+  {
+    "localeName": "zgh",
+    "title": "Standard Moroccan Tamazight"
+  },
+  {
+    "localeName": "pt_MZ",
+    "title": "Portuguese (Mozambique)"
+  },
+  {
+    "localeName": "fr_LU",
+    "title": "French (Luxembourg)"
+  },
+  {
+    "localeName": "kk_Cyrl",
+    "title": "Kazakh (Cyrillic)"
+  },
+  {
+    "localeName": "mas_TZ",
+    "title": "Masai (Tanzania)"
+  },
+  {
+    "localeName": "en_DM",
+    "title": "English (Dominica)"
+  },
+  {
+    "localeName": "ta_MY",
+    "title": "Tamil (Malaysia)"
+  },
+  {
+    "localeName": "dsb",
+    "title": "Lower Sorbian"
+  },
+  {
+    "localeName": "en_BE",
+    "title": "English (Belgium)"
+  },
+  {
+    "localeName": "mg",
+    "title": "Malagasy"
+  },
+  {
+    "localeName": "ur",
+    "title": "Urdu"
+  },
+  {
+    "localeName": "fr_GA",
+    "title": "French (Gabon)"
+  },
+  {
+    "localeName": "ka_GE",
+    "title": "Georgian (Georgia)"
+  },
+  {
+    "localeName": "nmg",
+    "title": "Kwasio"
+  },
+  {
+    "localeName": "en_TZ",
+    "title": "English (Tanzania)"
+  },
+  {
+    "localeName": "eu_ES",
+    "title": "Basque (Spain)"
+  },
+  {
+    "localeName": "ar_DZ",
+    "title": "Arabic (Algeria)"
+  },
+  {
+    "localeName": "id",
+    "title": "Indonesian"
+  },
+  {
+    "localeName": "so_DJ",
+    "title": "Somali (Djibouti)"
+  },
+  {
+    "localeName": "hsb",
+    "title": "Upper Sorbian"
+  },
+  {
+    "localeName": "yav",
+    "title": "Yangben"
+  },
+  {
+    "localeName": "mk",
+    "title": "Macedonian"
+  },
+  {
+    "localeName": "pa_Arab_PK",
+    "title": "Punjabi (Arabic, Pakistan)"
+  },
+  {
+    "localeName": "ml",
+    "title": "Malayalam"
+  },
+  {
+    "localeName": "en_ER",
+    "title": "English (Eritrea)"
+  },
+  {
+    "localeName": "ig",
+    "title": "Igbo"
+  },
+  {
+    "localeName": "se_FI",
+    "title": "Northern Sami (Finland)"
+  },
+  {
+    "localeName": "mn",
+    "title": "Mongolian"
+  },
+  {
+    "localeName": "ksb",
+    "title": "Shambala"
+  },
+  {
+    "localeName": "uz",
+    "title": "Uzbek"
+  },
+  {
+    "localeName": "vi_VN",
+    "title": "Vietnamese (Vietnam)"
+  },
+  {
+    "localeName": "ii",
+    "title": "Sichuan Yi"
+  },
+  {
+    "localeName": "qu",
+    "title": "Quechua"
+  },
+  {
+    "localeName": "en_PK",
+    "title": "English (Pakistan)"
+  },
+  {
+    "localeName": "ee",
+    "title": "Ewe"
+  },
+  {
+    "localeName": "mr",
+    "title": "Marathi"
+  },
+  {
+    "localeName": "ms",
+    "title": "Malay"
+  },
+  {
+    "localeName": "en_ES",
+    "title": "English (Spain)"
+  },
+  {
+    "localeName": "sq_XK",
+    "title": "Albanian (Kosovo)"
+  },
+  {
+    "localeName": "it_CH",
+    "title": "Italian (Switzerland)"
+  },
+  {
+    "localeName": "mt",
+    "title": "Maltese"
+  },
+  {
+    "localeName": "en_CK",
+    "title": "English (Cook Islands)"
+  },
+  {
+    "localeName": "br_FR",
+    "title": "Breton (France)"
+  },
+  {
+    "localeName": "sr_Cyrl_XK",
+    "title": "Serbian (Cyrillic, Kosovo)"
+  },
+  {
+    "localeName": "ksf",
+    "title": "Bafia"
+  },
+  {
+    "localeName": "en_SX",
+    "title": "English (Sint Maarten)"
+  },
+  {
+    "localeName": "bg_BG",
+    "title": "Bulgarian (Bulgaria)"
+  },
+  {
+    "localeName": "en_PL",
+    "title": "English (Poland)"
+  },
+  {
+    "localeName": "af",
+    "title": "Afrikaans"
+  },
+  {
+    "localeName": "el",
+    "title": "Greek"
+  },
+  {
+    "localeName": "cs_CZ",
+    "title": "Czech (Czech Republic)"
+  },
+  {
+    "localeName": "fr_TD",
+    "title": "French (Chad)"
+  },
+  {
+    "localeName": "zh_Hans_HK",
+    "title": "Chinese (Simplified, Hong Kong SAR China)"
+  },
+  {
+    "localeName": "is",
+    "title": "Icelandic"
+  },
+  {
+    "localeName": "ksh",
+    "title": "Colognian"
+  },
+  {
+    "localeName": "my",
+    "title": "Burmese"
+  },
+  {
+    "localeName": "en",
+    "title": "English"
+  },
+  {
+    "localeName": "it",
+    "title": "Italian"
+  },
+  {
+    "localeName": "dsb_DE",
+    "title": "Lower Sorbian (Germany)"
+  },
+  {
+    "localeName": "ii_CN",
+    "title": "Sichuan Yi (China)"
+  },
+  {
+    "localeName": "smn",
+    "title": "Inari Sami"
+  },
+  {
+    "localeName": "iu",
+    "title": "Inuktitut"
+  },
+  {
+    "localeName": "eo",
+    "title": "Esperanto"
+  },
+  {
+    "localeName": "en_ZA",
+    "title": "English (South Africa)"
+  },
+  {
+    "localeName": "en_AD",
+    "title": "English (Andorra)"
+  },
+  {
+    "localeName": "ak",
+    "title": "Akan"
+  },
+  {
+    "localeName": "en_RU",
+    "title": "English (Russia)"
+  },
+  {
+    "localeName": "kkj_CM",
+    "title": "Kako (Cameroon)"
+  },
+  {
+    "localeName": "am",
+    "title": "Amharic"
+  },
+  {
+    "localeName": "es",
+    "title": "Spanish"
+  },
+  {
+    "localeName": "et",
+    "title": "Estonian"
+  },
+  {
+    "localeName": "uk_UA",
+    "title": "Ukrainian (Ukraine)"
+  }
+]
