@@ -5,7 +5,9 @@ import { ApiHelper, IApiResult } from '../helpers/api.helper';
 
 @Controller('/locale')
 export class LocaleController {
-  constructor(private readonly localeService: LocaleService) {}
+  constructor(private readonly localeService: LocaleService) {
+
+  }
 
   @Get()
   async getAll(): Promise<IApiResult<LocaleEntity[]>> {
