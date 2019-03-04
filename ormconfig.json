@@ -5,6 +5,7 @@
 	"username": "root",
 	"password": "password",
 	"database": "loca",
+	"logging": true,
 	"entities": ["src/**/**.entity{.ts,.js}"],
 	"synchronize": true,
 	"autoSchemaSync": true
