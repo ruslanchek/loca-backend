@@ -1,0 +1,11 @@
+{
+	"type": "postgres",
+	"host": "localhost",
+	"port": 5432,
+	"username": "root",
+	"password": "password",
+	"database": "loca",
+	"entities": ["src/**/**.entity{.ts,.js}"],
+	"synchronize": true,
+	"autoSchemaSync": true
+}
