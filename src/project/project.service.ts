@@ -16,4 +16,12 @@ export class ProjectService {
   async findAll(): Promise<ProjectEntity[]> {
     return await this.projectRepository.find();
   }
+
+  async findOne(id: number): Promise<ProjectEntity> {
+    return await this.projectRepository.findOne({
+      where: {
+        id,
+      },
+    });
+  }
 }

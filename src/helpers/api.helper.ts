@@ -1,3 +1,5 @@
+import { HttpException, HttpStatus } from '@nestjs/common';
+
 export interface IApiResult<T> {
   data: T;
   error: IApiError;
@@ -15,29 +17,29 @@ export interface IApiError {
 }
 
 export class ApiHelper {
-  static async apiResult<T>(data: Promise<T>): Promise<IApiResult<T>> {
-    try {
-      return {
-        data: await data,
-        error: null,
-      };
-    } catch (error) {
-      return this.apiError('INTERNAL_SERVER_ERROR', error.message);
-    }
+  static apiResult<T>(data: T): IApiResult<T> {
+    return {
+      data,
+      error: null,
+    };
   }
 
   static apiError(
+    status: HttpStatus,
     code: string,
-    description: string,
+    description?: string,
     fields?: IApiErrorField[],
   ): IApiResult<null> {
-    return {
-      data: null,
-      error: {
-        code,
-        description,
-        fields: fields || [],
+    throw new HttpException(
+      {
+        data: null,
+        error: {
+          code,
+          description: description || '',
+          fields: fields || [],
+        }
       },
-    };
+      status,
+    );
   }
 }
