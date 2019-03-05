@@ -17,11 +17,11 @@
   },
   {
     "localeName": "en_SZ",
-    "title": "English (Swaziland)"
+    "title": "English (Eswatini)"
   },
   {
     "localeName": "tk_Latn",
-    "title": "Turkmen (Latin)"
+    "title": "Turkmen (Latin, Turkmenistan)"
   },
   {
     "localeName": "he_IL",
@@ -69,7 +69,7 @@
   },
   {
     "localeName": "es_EA",
-    "title": "Spanish (Ceuta & Melilla)"
+    "title": "Spanish (Ceuta and Melilla)"
   },
   {
     "localeName": "fr_GF",
@@ -117,7 +117,7 @@
   },
   {
     "localeName": "en_AG",
-    "title": "English (Antigua & Barbuda)"
+    "title": "English (Antigua and Barbuda)"
   },
   {
     "localeName": "ru_KZ",
@@ -137,7 +137,7 @@
   },
   {
     "localeName": "zh_Hant_MO",
-    "title": "Chinese (Traditional, Macau SAR China)"
+    "title": "Chinese (Traditional, Macau)"
   },
   {
     "localeName": "de_BE",
@@ -749,7 +749,7 @@
   },
   {
     "localeName": "en_MO",
-    "title": "English (Macau SAR China)"
+    "title": "English (Macau)"
   },
   {
     "localeName": "ar_TD",
@@ -913,7 +913,7 @@
   },
   {
     "localeName": "en_VC",
-    "title": "English (St. Vincent & Grenadines)"
+    "title": "English (Saint Vincent and the Grenadines)"
   },
   {
     "localeName": "fr_DJ",
@@ -933,7 +933,7 @@
   },
   {
     "localeName": "pt_ST",
-    "title": "Portuguese (São Tomé & Príncipe)"
+    "title": "Portuguese (São Tomé and Príncipe)"
   },
   {
     "localeName": "ar_SD",
@@ -1089,11 +1089,11 @@
   },
   {
     "localeName": "en_KN",
-    "title": "English (St. Kitts & Nevis)"
+    "title": "English (Saint Kitts and Nevis)"
   },
   {
     "localeName": "nb_SJ",
-    "title": "Norwegian Bokmål (Svalbard & Jan Mayen)"
+    "title": "Norwegian Bokmål (Svalbard and Jan Mayen)"
   },
   {
     "localeName": "sg",
@@ -1329,7 +1329,7 @@
   },
   {
     "localeName": "fr_PM",
-    "title": "French (St. Pierre & Miquelon)"
+    "title": "French (Saint Pierre and Miquelon)"
   },
   {
     "localeName": "ko",
@@ -1421,7 +1421,7 @@
   },
   {
     "localeName": "en_TC",
-    "title": "English (Turks & Caicos Islands)"
+    "title": "English (Turks and Caicos Islands)"
   },
   {
     "localeName": "tzm_Latn",
@@ -2021,7 +2021,7 @@
   },
   {
     "localeName": "pt_MO",
-    "title": "Portuguese (Macau SAR China)"
+    "title": "Portuguese (Macau)"
   },
   {
     "localeName": "be",
@@ -2245,7 +2245,7 @@
   },
   {
     "localeName": "fr_WF",
-    "title": "French (Wallis & Futuna)"
+    "title": "French (Wallis and Futuna)"
   },
   {
     "localeName": "mt_MT",
@@ -2277,7 +2277,7 @@
   },
   {
     "localeName": "zh_Hans_MO",
-    "title": "Chinese (Simplified, Macau SAR China)"
+    "title": "Chinese (Simplified, Macau)"
   },
   {
     "localeName": "mn_Cyrl_MN",
@@ -2329,7 +2329,7 @@
   },
   {
     "localeName": "en_TT",
-    "title": "English (Trinidad & Tobago)"
+    "title": "English (Trinidad and Tobago)"
   },
   {
     "localeName": "ms_Arab_MY",
