@@ -1,23 +1,23 @@
 type Query {
-    getCats: [Cat]
-    cat(id: ID!): Cat
+  getPhrases: [Phrase]
+  getPhrase(id: ID!): Phrase
 }
 
 type Mutation {
-    createCat(createCatInput: CreateCatInput): Cat
+  createPhrase(createPhraseInput: CreatePhraseInput): Phrase
 }
 
 type Subscription {
-    catCreated: Cat
+  phraseCreated: Phrase
 }
 
-type Cat {
-    id: Int
-    name: String
-    age: Int
+type Phrase {
+  id: Int
+  phraseId: String
+  tags: [String]
 }
 
-input CreateCatInput {
-    name: String
-    age: Int
+input CreatePhraseInput {
+  projectId: Int
+  phraseId: String
 }

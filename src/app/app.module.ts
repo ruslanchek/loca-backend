@@ -7,6 +7,7 @@ import { Connection } from 'typeorm';
 import { ProjectModule } from '../project/project.module';
 import { LocaleModule } from '../locale/locale.module';
 import { PhraseModule } from '../phrase/phrase.module';
+import { join } from 'path';
 
 @Module({
   imports: [
@@ -15,6 +16,11 @@ import { PhraseModule } from '../phrase/phrase.module';
       typePaths: ['./**/*.graphql'],
       debug: true,
       playground: true,
+      installSubscriptionHandlers: true,
+      definitions: {
+        path: join(process.cwd(), 'src/graphql.schema.ts'),
+        outputAs: 'class',
+      },
     }),
     ProjectModule,
     LocaleModule,
