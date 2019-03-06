@@ -12,4 +12,16 @@ export class PhraseEntity {
   @Column('text', { array: true, nullable: true })
   @Index()
   tags: string[];
+
+  @Column({
+    select: false,
+  })
+  @Index()
+  userId: number;
+
+  @Column({
+    select: false,
+  })
+  @Index()
+  projectId: number;
 }
