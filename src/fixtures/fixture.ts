@@ -8,8 +8,8 @@ export abstract class Fixture<Entity> {
     })();
   }
 
-  public times(times: number, iterator: (i: number) => Entity): Entity[] {
-    const output: Entity[] = [];
+  public times<T>(times: number, iterator: (i: number) => T): T[] {
+    const output: T[] = [];
 
     for (let i = 0; i < times; i++) {
       output.push(iterator(i));
