@@ -5,9 +5,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Connection } from 'typeorm';
 import { ProjectModule } from '../project/project.module';
 import { LocaleModule } from '../locale/locale.module';
+import { NamespaceModule } from '../namespace/namespace.module';
 
 @Module({
-  imports: [TypeOrmModule.forRoot(), ProjectModule, LocaleModule],
+  imports: [TypeOrmModule.forRoot(), ProjectModule, LocaleModule, NamespaceModule],
   controllers: [AppController],
   providers: [AppService],
 })
