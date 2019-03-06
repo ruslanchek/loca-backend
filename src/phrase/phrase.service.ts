@@ -17,6 +17,14 @@ export class PhraseService {
     return await this.phraseRepository.find();
   }
 
+  async findByProject(projectId: number): Promise<PhraseEntity[]> {
+    return await this.phraseRepository.find({
+      where: {
+        projectId,
+      },
+    });
+  }
+
   async findOne(id: number): Promise<PhraseEntity> {
     return await this.phraseRepository.findOne({
       where: {

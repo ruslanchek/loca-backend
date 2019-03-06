@@ -14,6 +14,13 @@ export class PhraseController {
     return await ApiHelper.apiResult(items);
   }
 
+  @Get('/by-project/:projectId')
+  async getProjectItems(@Param('projectId') projectId): Promise<IApiResult<PhraseEntity[]>> {
+    const items = await this.phraseService.findByProject(projectId);
+
+    return await ApiHelper.apiResult(items);
+  }
+
   @Get(':id')
   async getItem(@Param('id') id): Promise<IApiResult<PhraseEntity>> {
     const item = await this.phraseService.findOne(id);

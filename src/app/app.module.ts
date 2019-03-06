@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+import { GraphQLModule } from '@nestjs/graphql';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
@@ -8,7 +9,17 @@ import { LocaleModule } from '../locale/locale.module';
 import { PhraseModule } from '../phrase/phrase.module';
 
 @Module({
-  imports: [TypeOrmModule.forRoot(), ProjectModule, LocaleModule, PhraseModule],
+  imports: [
+    TypeOrmModule.forRoot(),
+    GraphQLModule.forRoot({
+      typePaths: ['./**/*.graphql'],
+      debug: true,
+      playground: true,
+    }),
+    ProjectModule,
+    LocaleModule,
+    PhraseModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
