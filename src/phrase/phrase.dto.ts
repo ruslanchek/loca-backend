@@ -1,4 +1,4 @@
-import { IsDefined } from 'class-validator';
+import { IsArray, IsDefined } from 'class-validator';
 
 export class CreatePhraseDto {
   @IsDefined()
@@ -6,4 +6,7 @@ export class CreatePhraseDto {
 
   @IsDefined()
   projectId: number;
+
+  @IsArray()
+  tags: string[];
 }

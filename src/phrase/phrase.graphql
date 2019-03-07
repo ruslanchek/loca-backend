@@ -20,4 +20,5 @@ type Phrase {
 input CreatePhraseInput {
   projectId: Int
   phraseId: String
+  tags: [String]
 }

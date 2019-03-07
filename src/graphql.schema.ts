@@ -2,6 +2,7 @@
 export class CreatePhraseInput {
     projectId?: number;
     phraseId?: string;
+    tags?: string[];
 }
 
 export abstract class IMutation {
