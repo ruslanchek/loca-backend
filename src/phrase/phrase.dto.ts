@@ -1,4 +1,11 @@
-import { IsArray, IsDefined } from 'class-validator';
+import {
+  IsArray,
+  IsDefined,
+  IsEnum,
+  IsNumber,
+  IsString,
+} from 'class-validator';
+import { CommonOrderDirection, PhraseOrderBy } from '../graphql.schema';
 
 export class CreatePhraseDto {
   @IsDefined()
@@ -9,4 +16,22 @@ export class CreatePhraseDto {
 
   @IsArray()
   tags: string[];
+}
+
+export class GetPhraseDto {
+  @IsDefined()
+  @IsNumber()
+  take: number;
+
+  @IsDefined()
+  @IsNumber()
+  skip: number;
+
+  @IsDefined()
+  @IsEnum(PhraseOrderBy)
+  orderBy: PhraseOrderBy;
+
+  @IsDefined()
+  @IsEnum(CommonOrderDirection)
+  orderDirection: CommonOrderDirection;
 }

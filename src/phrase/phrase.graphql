@@ -1,5 +1,5 @@
 type Query {
-  getPhrases: [Phrase]
+  getPhrases(getPhrasesInput: GetPhrasesInput): [Phrase]
   getPhrase(id: ID!): Phrase
 }
 
@@ -18,7 +18,24 @@ type Phrase {
 }
 
 input CreatePhraseInput {
-  projectId: Int
-  phraseId: String
+  projectId: Int!
+  phraseId: String!
   tags: [String]
+}
+
+input GetPhrasesInput {
+  skip: Int!
+  take: Int!
+  orderBy: PhraseOrderBy!
+  orderDirection: CommonOrderDirection!
+}
+
+enum PhraseOrderBy {
+  phraseId
+  id
+}
+
+enum CommonOrderDirection {
+  ASC
+  DESC
 }

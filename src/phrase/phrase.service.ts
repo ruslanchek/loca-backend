@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { PhraseEntity } from './phrase.entity';
 import { Repository } from 'typeorm';
 import { PhraseFixture } from './phrase.fixture';
-import { CreatePhraseDto } from './phrase.dto';
+import { CreatePhraseDto, GetPhraseDto } from './phrase.dto';
 
 @Injectable()
 export class PhraseService {
@@ -33,11 +33,15 @@ export class PhraseService {
     return phrase;
   }
 
-  async findAll(): Promise<PhraseEntity[]> {
+  async findAll(args: GetPhraseDto): Promise<PhraseEntity[]> {
+    const order = {};
+
+    order[args.orderBy] = args.orderDirection;
+
     return await this.phraseRepository.find({
-      order: {
-        id: 'DESC',
-      },
+      order,
+      take: args.take,
+      skip: args.skip,
     });
   }
 

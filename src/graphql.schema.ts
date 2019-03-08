@@ -1,8 +1,25 @@
 /* tslint:disable */
+export enum CommonOrderDirection {
+    ASC = "ASC",
+    DESC = "DESC"
+}
+
+export enum PhraseOrderBy {
+    phraseId = "phraseId",
+    id = "id"
+}
+
 export class CreatePhraseInput {
-    projectId?: number;
-    phraseId?: string;
+    projectId: number;
+    phraseId: string;
     tags?: string[];
+}
+
+export class GetPhrasesInput {
+    skip: number;
+    take: number;
+    orderBy: PhraseOrderBy;
+    orderDirection: CommonOrderDirection;
 }
 
 export abstract class IMutation {
@@ -16,7 +33,7 @@ export class Phrase {
 }
 
 export abstract class IQuery {
-    abstract getPhrases(): Phrase[] | Promise<Phrase[]>;
+    abstract getPhrases(getPhrasesInput?: GetPhrasesInput): Phrase[] | Promise<Phrase[]>;
 
     abstract getPhrase(id: string): Phrase | Promise<Phrase>;
 
