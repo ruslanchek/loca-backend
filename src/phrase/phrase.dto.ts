@@ -21,6 +21,10 @@ export class CreatePhraseDto {
 export class GetPhrasesDto {
   @IsDefined()
   @IsNumber()
+  projectId: number;
+
+  @IsDefined()
+  @IsNumber()
   take: number;
 
   @IsDefined()

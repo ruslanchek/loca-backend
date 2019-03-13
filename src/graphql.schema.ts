@@ -41,6 +41,7 @@ export class CreateProjectInput {
 }
 
 export class GetPhrasesInput {
+    projectId: string;
     skip: number;
     take: number;
     orderBy: PhraseOrderBy;

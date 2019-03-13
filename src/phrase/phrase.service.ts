@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { PhraseEntity } from './phrase.entity';
-import { Repository } from 'typeorm';
+import { FindConditions, Repository } from 'typeorm';
 import { PhraseFixture } from './phrase.fixture';
 import { CreatePhraseDto, GetPhrasesDto } from './phrase.dto';
 
@@ -39,6 +39,9 @@ export class PhraseService {
     order[args.orderBy] = args.orderDirection;
 
     return await this.phraseRepository.find({
+      where: {
+        projectId: args.projectId,
+      },
       order,
       take: args.take,
       skip: args.skip,

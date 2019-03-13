@@ -24,6 +24,7 @@ input CreatePhraseInput {
 }
 
 input GetPhrasesInput {
+  projectId: ID!
   skip: Int!
   take: Int!
   orderBy: PhraseOrderBy!
