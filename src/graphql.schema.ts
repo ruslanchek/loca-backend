@@ -4,8 +4,29 @@ export enum CommonOrderDirection {
     DESC = "DESC"
 }
 
+export enum EProjectStatus {
+    Ready = "Ready",
+    TranslationInProgress = "TranslationInProgress",
+    Archive = "Archive"
+}
+
+export enum EProjectType {
+    WebApplication = "WebApplication",
+    IOs = "IOs",
+    Android = "Android",
+    DesktopApplication = "DesktopApplication",
+    Promo = "Promo",
+    WebSite = "WebSite",
+    Api = "Api",
+    Other = "Other"
+}
+
 export enum PhraseOrderBy {
     phraseId = "phraseId",
+    id = "id"
+}
+
+export enum ProjectOrderBy {
     id = "id"
 }
 
@@ -15,6 +36,10 @@ export class CreatePhraseInput {
     tags?: string[];
 }
 
+export class CreateProjectInput {
+    title: string;
+}
+
 export class GetPhrasesInput {
     skip: number;
     take: number;
@@ -22,14 +47,37 @@ export class GetPhrasesInput {
     orderDirection: CommonOrderDirection;
 }
 
+export class GetProjectsInput {
+    skip: number;
+    take: number;
+    orderBy: ProjectOrderBy;
+    orderDirection: CommonOrderDirection;
+}
+
 export abstract class IMutation {
     abstract createPhrase(createPhraseInput?: CreatePhraseInput): Phrase | Promise<Phrase>;
+
+    abstract createProject(createProjectInput?: CreateProjectInput): Project | Promise<Project>;
 }
 
 export class Phrase {
-    id?: number;
-    phraseId?: string;
+    id: number;
+    phraseId: string;
     tags?: string[];
+}
+
+export class Project {
+    id: number;
+    title: string;
+    description: string;
+    type: EProjectType;
+    status: EProjectStatus;
+    lastEdit: Date;
+    readyness: number;
+    basePhrases: number;
+    baseWords: number;
+    issues: number;
+    avatar: string;
 }
 
 export abstract class IQuery {
@@ -37,9 +85,17 @@ export abstract class IQuery {
 
     abstract getPhrase(id: string): Phrase | Promise<Phrase>;
 
+    abstract getProjects(getProjectsInput?: GetProjectsInput): Project[] | Promise<Project[]>;
+
+    abstract getProject(id: string): Project | Promise<Project>;
+
     abstract temp__(): boolean | Promise<boolean>;
 }
 
 export abstract class ISubscription {
     abstract phraseCreated(): Phrase | Promise<Phrase>;
+
+    abstract projectCreated(): Project | Promise<Project>;
 }
+
+export type Date = any;

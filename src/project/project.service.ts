@@ -3,6 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { ProjectEntity } from './project.entity';
 import { Repository } from 'typeorm';
 import { ProjectFixture } from './project.fixture';
+import { GetProjectsDto } from './project.dto';
 
 @Injectable()
 export class ProjectService {
@@ -13,8 +14,16 @@ export class ProjectService {
     new ProjectFixture(projectRepository);
   }
 
-  async findAll(): Promise<ProjectEntity[]> {
-    return await this.projectRepository.find();
+  async findAll(args: GetProjectsDto): Promise<ProjectEntity[]> {
+    const order = {};
+
+    order[args.orderBy] = args.orderDirection;
+
+    return await this.projectRepository.find({
+      order,
+      take: args.take,
+      skip: args.skip,
+    });
   }
 
   async findOne(id: number): Promise<ProjectEntity> {

@@ -7,18 +7,11 @@ import {
 } from 'class-validator';
 import { CommonOrderDirection, PhraseOrderBy } from '../graphql.schema';
 
-export class CreatePhraseDto {
-  @IsDefined()
-  phraseId: string;
+export class CreateProjectDto {
 
-  @IsDefined()
-  projectId: number;
-
-  @IsArray()
-  tags: string[];
 }
 
-export class GetPhrasesDto {
+export class GetProjectsDto {
   @IsDefined()
   @IsNumber()
   take: number;

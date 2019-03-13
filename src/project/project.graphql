@@ -1,0 +1,58 @@
+type Query {
+  getProjects(getProjectsInput: GetProjectsInput): [Project]
+  getProject(id: ID!): Project
+}
+
+type Mutation {
+  createProject(createProjectInput: CreateProjectInput): Project
+}
+
+type Subscription {
+  projectCreated: Project
+}
+
+type Project {
+  id: Int!
+  title: String!
+  description: String!
+  type: EProjectType!
+  status: EProjectStatus!
+  lastEdit: Date!
+  readyness: Int!
+  basePhrases: Int!
+  baseWords: Int!
+  issues: Int!
+  avatar: String!
+}
+
+input CreateProjectInput {
+  title: String!
+}
+
+input GetProjectsInput {
+  skip: Int!
+  take: Int!
+  orderBy: ProjectOrderBy!
+  orderDirection: CommonOrderDirection!
+}
+
+enum ProjectOrderBy {
+  id
+}
+
+enum EProjectType {
+  WebApplication
+  IOs
+  Android
+  DesktopApplication
+  Promo
+  WebSite
+  Api
+  Other
+}
+
+enum EProjectStatus {
+  Ready
+  TranslationInProgress
+  Archive
+}

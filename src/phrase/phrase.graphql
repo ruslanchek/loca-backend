@@ -12,9 +12,9 @@ type Subscription {
 }
 
 type Phrase {
-  id: Int
-  phraseId: String
-  tags: [String]
+  id: Int!
+  phraseId: String!
+  tags: [String]!
 }
 
 input CreatePhraseInput {
@@ -33,9 +33,4 @@ input GetPhrasesInput {
 enum PhraseOrderBy {
   phraseId
   id
-}
-
-enum CommonOrderDirection {
-  ASC
-  DESC
 }
