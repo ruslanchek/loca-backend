@@ -55,6 +55,10 @@ export class GetProjectsInput {
     orderDirection: CommonOrderDirection;
 }
 
+export class SearchInput {
+    string: string;
+}
+
 export abstract class IMutation {
     abstract createPhrase(createPhraseInput?: CreatePhraseInput): Phrase | Promise<Phrase>;
 
@@ -90,7 +94,13 @@ export abstract class IQuery {
 
     abstract getProject(id: string): Project | Promise<Project>;
 
+    abstract search(searchInput: SearchInput): SearchResult[] | Promise<SearchResult[]>;
+
     abstract temp__(): boolean | Promise<boolean>;
+}
+
+export class SearchResult {
+    title: string;
 }
 
 export abstract class ISubscription {

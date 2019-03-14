@@ -1,0 +1,11 @@
+type Query {
+  search(searchInput: SearchInput!): [SearchResult]!
+}
+
+input SearchInput {
+  string: String!
+}
+
+type SearchResult {
+  title: String!
+}

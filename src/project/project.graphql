@@ -1,14 +1,14 @@
 type Query {
-  getProjects(getProjectsInput: GetProjectsInput): [Project]
-  getProject(id: ID!): Project
+  getProjects(getProjectsInput: GetProjectsInput): [Project]!
+  getProject(id: ID!): Project!
 }
 
 type Mutation {
-  createProject(createProjectInput: CreateProjectInput): Project
+  createProject(createProjectInput: CreateProjectInput): Project!
 }
 
 type Subscription {
-  projectCreated: Project
+  projectCreated: Project!
 }
 
 type Project {

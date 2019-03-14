@@ -1,7 +1,6 @@
 import { ParseIntPipe } from '@nestjs/common';
 import { Args, Mutation, Query, Resolver, Subscription } from '@nestjs/graphql';
 import { PubSub } from 'graphql-subscriptions';
-// import { Project } from '../graphql.schema';
 import { GetProjectsDto } from './project.dto';
 import { ProjectService } from './project.service';
 

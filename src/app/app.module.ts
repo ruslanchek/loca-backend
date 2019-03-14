@@ -8,6 +8,7 @@ import { ProjectModule } from '../project/project.module';
 import { LocaleModule } from '../locale/locale.module';
 import { PhraseModule } from '../phrase/phrase.module';
 import { join } from 'path';
+import { SearchModule } from '../search/search.module';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { join } from 'path';
     ProjectModule,
     LocaleModule,
     PhraseModule,
+    SearchModule,
   ],
   controllers: [AppController],
   providers: [AppService],

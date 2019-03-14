@@ -1,14 +1,14 @@
 type Query {
-  getPhrases(getPhrasesInput: GetPhrasesInput): [Phrase]
-  getPhrase(id: ID!): Phrase
+  getPhrases(getPhrasesInput: GetPhrasesInput): [Phrase]!
+  getPhrase(id: ID!): Phrase!
 }
 
 type Mutation {
-  createPhrase(createPhraseInput: CreatePhraseInput): Phrase
+  createPhrase(createPhraseInput: CreatePhraseInput): Phrase!
 }
 
 type Subscription {
-  phraseCreated: Phrase
+  phraseCreated: Phrase!
 }
 
 type Phrase {
