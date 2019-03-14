@@ -30,6 +30,12 @@ export enum ProjectOrderBy {
     id = "id"
 }
 
+export enum SearchResultKind {
+    Project = "Project",
+    Phrase = "Phrase",
+    Translation = "Translation"
+}
+
 export class CreatePhraseInput {
     projectId: number;
     phraseId: string;
@@ -100,6 +106,8 @@ export abstract class IQuery {
 }
 
 export class SearchResult {
+    id: string;
+    kind: SearchResultKind;
     title: string;
 }
 

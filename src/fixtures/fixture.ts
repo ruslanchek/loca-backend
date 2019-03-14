@@ -1,4 +1,5 @@
 import { Repository } from 'typeorm';
+import { ElasticsearchService } from '@nestjs/elasticsearch';
 
 export abstract class Fixture<Entity> {
   constructor(private readonly repository: Repository<Entity>) {
@@ -19,7 +20,11 @@ export abstract class Fixture<Entity> {
   }
 
   public async clear() {
-    await this.repository.query(`ALTER SEQUENCE "${this.repository.metadata.tableName}_id_seq" RESTART WITH 1;`);
+    await this.repository.query(
+      `ALTER SEQUENCE "${
+        this.repository.metadata.tableName
+      }_id_seq" RESTART WITH 1;`,
+    );
     await this.repository.clear();
   }
 

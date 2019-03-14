@@ -7,5 +7,13 @@ input SearchInput {
 }
 
 type SearchResult {
+  id: ID!
+  kind: SearchResultKind!
   title: String!
+}
+
+enum SearchResultKind {
+  Project
+  Phrase
+  Translation
 }

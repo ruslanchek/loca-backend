@@ -1,15 +1,12 @@
 import { Module } from '@nestjs/common';
-import { ElasticsearchModule } from '@nestjs/elasticsearch';
 import { SearchService } from './search.service';
 import { SearchResolver } from './search.resolver';
+import { ProjectEntity } from '../project/project.entity';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { PhraseEntity } from '../phrase/phrase.entity';
 
 @Module({
-  imports: [
-    ElasticsearchModule.register({
-      host: 'localhost:9200',
-      log: 'trace',
-    }),
-  ],
+  imports: [TypeOrmModule.forFeature([ProjectEntity, PhraseEntity])],
   providers: [SearchService, SearchResolver],
 })
 export class SearchModule {}

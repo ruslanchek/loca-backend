@@ -5,7 +5,9 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { PhraseResolver } from './phrase.resolver';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([PhraseEntity])],
+  imports: [
+    TypeOrmModule.forFeature([PhraseEntity]),
+  ],
   providers: [PhraseService, PhraseResolver],
 })
 export class PhraseModule {}

@@ -1,17 +1,58 @@
 import { Injectable } from '@nestjs/common';
-import { ElasticsearchService } from '@nestjs/elasticsearch';
 import { SearchDto } from './search.dto';
-import { SearchResult } from '../graphql.schema';
+import { SearchResult, SearchResultKind } from '../graphql.schema';
+import { ProjectEntity } from '../project/project.entity';
+import { Like, Repository } from 'typeorm';
+import { InjectRepository } from '@nestjs/typeorm';
+import { PhraseEntity } from '../phrase/phrase.entity';
 
 @Injectable()
 export class SearchService {
-  constructor(private readonly elasticsearchService: ElasticsearchService) {}
+  constructor(
+    @InjectRepository(ProjectEntity)
+    private readonly projectRepository: Repository<ProjectEntity>,
+    @InjectRepository(PhraseEntity)
+    private readonly phraseRepository: Repository<PhraseEntity>,
+  ) {}
 
   public async search(args: SearchDto): Promise<SearchResult[]> {
-    return [
-      {
-        title: args.string,
-      },
-    ];
+    const results: SearchResult[] = [];
+    const queryString = args.string.toLowerCase();
+
+    const projectResult = await this.projectRepository
+      .createQueryBuilder()
+      .select(['id', '"title"'])
+      .where(`LOWER("title") LIKE :title`, {
+        title: `%${queryString}%`,
+      }).execute();
+
+    const phraseResult = await this.phraseRepository
+      .createQueryBuilder()
+      .select(['id', '"phraseId"'])
+      .where(`LOWER("phraseId") LIKE :phraseId`, {
+        phraseId: `%${queryString}%`,
+      }).execute();
+
+    if (projectResult) {
+      projectResult.forEach(project => {
+        results.push({
+          id: project.id.toString(),
+          kind: SearchResultKind.Project,
+          title: project.title,
+        });
+      });
+    }
+
+    if (phraseResult) {
+      phraseResult.forEach(phrase => {
+        results.push({
+          id: phrase.id.toString(),
+          kind: SearchResultKind.Phrase,
+          title: phrase.phraseId,
+        });
+      });
+    }
+
+    return results;
   }
 }
