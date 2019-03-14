@@ -19,38 +19,42 @@ export class SearchService {
     const results: SearchResult[] = [];
     const queryString = args.string.toLowerCase();
 
-    const projectResult = await this.projectRepository
-      .createQueryBuilder()
-      .select(['id', '"title"'])
-      .where(`LOWER("title") LIKE :title`, {
-        title: `%${queryString}%`,
-      }).execute();
+    if (queryString.length >= 2) {
+      const projectResult = await this.projectRepository
+        .createQueryBuilder()
+        .select(['id', '"title"'])
+        .where(`LOWER("title") LIKE :title`, {
+          title: `%${queryString}%`,
+        })
+        .execute();
 
-    const phraseResult = await this.phraseRepository
-      .createQueryBuilder()
-      .select(['id', '"phraseId"'])
-      .where(`LOWER("phraseId") LIKE :phraseId`, {
-        phraseId: `%${queryString}%`,
-      }).execute();
+      const phraseResult = await this.phraseRepository
+        .createQueryBuilder()
+        .select(['id', '"phraseId"'])
+        .where(`LOWER("phraseId") LIKE :phraseId`, {
+          phraseId: `%${queryString}%`,
+        })
+        .execute();
 
-    if (projectResult) {
-      projectResult.forEach(project => {
-        results.push({
-          id: project.id.toString(),
-          kind: SearchResultKind.Project,
-          title: project.title,
+      if (projectResult) {
+        projectResult.forEach(project => {
+          results.push({
+            id: project.id.toString(),
+            kind: SearchResultKind.Project,
+            title: project.title,
+          });
         });
-      });
-    }
+      }
 
-    if (phraseResult) {
-      phraseResult.forEach(phrase => {
-        results.push({
-          id: phrase.id.toString(),
-          kind: SearchResultKind.Phrase,
-          title: phrase.phraseId,
+      if (phraseResult) {
+        phraseResult.forEach(phrase => {
+          results.push({
+            id: phrase.id.toString(),
+            kind: SearchResultKind.Phrase,
+            title: phrase.phraseId,
+          });
         });
-      });
+      }
     }
 
     return results;
