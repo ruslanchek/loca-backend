@@ -10,6 +10,7 @@ type SearchResult {
   id: ID!
   kind: SearchResultKind!
   title: String!
+  highlights: [String]
 }
 
 enum SearchResultKind {

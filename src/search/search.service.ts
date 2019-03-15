@@ -18,8 +18,6 @@ export class SearchService {
         q: encodeURIComponent(args.string),
       });
 
-      console.log(JSON.stringify(searchResult));
-
       if (searchResult && searchResult.hits && searchResult.hits.total > 0) {
         searchResult.hits.hits.map(hit => {
           if (SearchResultKind[hit._type]) {
@@ -27,6 +25,7 @@ export class SearchService {
               title: hit._source['title'],
               id: hit._id,
               kind: SearchResultKind[hit._type],
+              highlights: hit.highlight,
             });
           }
         });

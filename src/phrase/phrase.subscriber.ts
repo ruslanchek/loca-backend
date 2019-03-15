@@ -16,9 +16,7 @@ export class PhraseSubscriber
   }
 
   afterInsert(event: InsertEvent<PhraseEntity>) {
-    if (event.entity) {
-      console.log(event.entity);
-
+    if (event.entity && getElasticsearchService()) {
       getElasticsearchService()
         .getClient()
         .create({

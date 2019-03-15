@@ -109,6 +109,7 @@ export class SearchResult {
     id: string;
     kind: SearchResultKind;
     title: string;
+    highlights?: string[];
 }
 
 export abstract class ISubscription {
