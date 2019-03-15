@@ -10,7 +10,7 @@ export class LocaleService {
     @InjectRepository(LocaleEntity)
     private readonly projectRepository: Repository<LocaleEntity>,
   ) {
-    new LocaleFixture(projectRepository);
+    // new LocaleFixture(projectRepository);
   }
 
   async findAll(): Promise<LocaleEntity[]> {

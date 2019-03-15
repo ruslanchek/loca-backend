@@ -1,12 +1,15 @@
 import { Module } from '@nestjs/common';
 import { SearchService } from './search.service';
 import { SearchResolver } from './search.resolver';
-import { ProjectEntity } from '../project/project.entity';
-import { TypeOrmModule } from '@nestjs/typeorm';
-import { PhraseEntity } from '../phrase/phrase.entity';
+import { ElasticsearchModule } from '@nestjs/elasticsearch';
+import { ElasticsearchConfigService } from './search.config';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([ProjectEntity, PhraseEntity])],
+  imports: [
+    ElasticsearchModule.registerAsync({
+      useClass: ElasticsearchConfigService,
+    }),
+  ],
   providers: [SearchService, SearchResolver],
 })
 export class SearchModule {}

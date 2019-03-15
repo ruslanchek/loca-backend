@@ -5,9 +5,12 @@ import { EProjectStatus, EProjectType } from './project.enums';
 
 export class ProjectFixture extends Fixture<ProjectEntity> {
   public get entities() {
-    return this.times(20, i => {
+    const stepNumber = 1;
+    const stepProject = 100;
+
+    return this.times(stepProject, i => {
       return {
-        id: faker.random.number(),
+        id: i + 1 + stepNumber * stepProject,
         title: faker.commerce.productName(),
         description: faker.lorem.paragraph(1),
         type: faker.random.arrayElement([

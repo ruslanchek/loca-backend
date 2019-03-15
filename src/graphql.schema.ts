@@ -31,9 +31,9 @@ export enum ProjectOrderBy {
 }
 
 export enum SearchResultKind {
-    Project = "Project",
-    Phrase = "Phrase",
-    Translation = "Translation"
+    project = "project",
+    phrase = "phrase",
+    translation = "translation"
 }
 
 export class CreatePhraseInput {
