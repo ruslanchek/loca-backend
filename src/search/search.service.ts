@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { ElasticsearchService } from '@nestjs/elasticsearch';
 import { SearchDto } from './search.dto';
-import { SearchResult, SearchResultKind } from '../graphql.schema';
+import { SearchResult, SearchResultKind } from '../generated/graphql.schema';
 
-export const ELASTICSEARCH_USER_DATA_TYPE_NAME = 'userdata';
+export const ELASTICSEARCH_APP_NAME = 'userdata';
 
 @Injectable()
 export class SearchService {
@@ -14,19 +14,19 @@ export class SearchService {
 
     try {
       const searchResult = await this.elasticsearchService.getClient().search({
-        type: ELASTICSEARCH_USER_DATA_TYPE_NAME,
+        index: ELASTICSEARCH_APP_NAME,
         q: encodeURIComponent(args.string),
       });
 
-      if (searchResult && searchResult.hits && searchResult.hits.total > 0) {
-        console.log(JSON.stringify(searchResult));
+      console.log(JSON.stringify(searchResult));
 
+      if (searchResult && searchResult.hits && searchResult.hits.total > 0) {
         searchResult.hits.hits.map(hit => {
-          if (SearchResultKind[hit._index]) {
+          if (SearchResultKind[hit._type]) {
             results.push({
               title: hit._source['title'],
               id: hit._id,
-              kind: SearchResultKind[hit._index],
+              kind: SearchResultKind[hit._type],
             });
           }
         });

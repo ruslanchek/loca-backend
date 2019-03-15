@@ -12,13 +12,13 @@ type Subscription {
 }
 
 type Phrase {
-  id: Int!
+  id: ID!
   phraseId: String!
   tags: [String]!
 }
 
 input CreatePhraseInput {
-  projectId: Int!
+  projectId: ID!
   phraseId: String!
   tags: [String]
 }

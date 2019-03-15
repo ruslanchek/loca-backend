@@ -5,8 +5,8 @@ import * as faker from 'faker';
 export class PhraseFixture extends Fixture<PhraseEntity> {
   public get entities() {
     const stepNumber = 1;
-    const stepFixture = 1000;
-    const stepProject = 100;
+    const stepFixture = 40;
+    const stepProject = 10;
 
     return this.times(stepFixture, i => {
       const tags = this.times(faker.random.number(4), key => {
@@ -17,7 +17,7 @@ export class PhraseFixture extends Fixture<PhraseEntity> {
       });
 
       return {
-        id: i + 1 + stepFixture * stepNumber,
+        id: faker.random.uuid(),
         phraseId: faker.lorem
           .words(faker.random.number({ min: 2, max: 5 }))
           .toUpperCase()

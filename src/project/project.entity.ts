@@ -1,10 +1,10 @@
-import { Entity, Column, PrimaryGeneratedColumn, Index } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, Index, AfterInsert } from 'typeorm';
 import { EProjectStatus, EProjectType } from './project.enums';
 
 @Entity('project')
 export class ProjectEntity {
-  @PrimaryGeneratedColumn()
-  id: number;
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
 
   @Column({ default: 'New Project' })
   title: string;

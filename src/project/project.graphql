@@ -12,7 +12,7 @@ type Subscription {
 }
 
 type Project {
-  id: Int!
+  id: ID!
   title: String!
   description: String!
   type: EProjectType!

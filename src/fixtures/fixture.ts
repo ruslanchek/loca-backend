@@ -3,7 +3,6 @@ import { Repository } from 'typeorm';
 export abstract class Fixture<Entity> {
   constructor(private readonly repository: Repository<Entity>) {
     (async () => {
-      await this.clear();
       await this.fill();
     })();
   }
@@ -16,15 +15,6 @@ export abstract class Fixture<Entity> {
     }
 
     return output;
-  }
-
-  public async clear() {
-    await this.repository.query(
-      `ALTER SEQUENCE "${
-        this.repository.metadata.tableName
-      }_id_seq" RESTART WITH 1;`,
-    );
-    await this.repository.clear();
   }
 
   public async processChunk(

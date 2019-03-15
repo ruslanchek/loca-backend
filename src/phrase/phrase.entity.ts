@@ -3,8 +3,8 @@ import { Index } from 'typeorm/decorator';
 
 @Entity('phrase')
 export class PhraseEntity {
-  @PrimaryGeneratedColumn()
-  id: number;
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
 
   @Column({ nullable: true })
   phraseId: string;

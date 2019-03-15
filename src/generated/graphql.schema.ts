@@ -37,7 +37,7 @@ export enum SearchResultKind {
 }
 
 export class CreatePhraseInput {
-    projectId: number;
+    projectId: string;
     phraseId: string;
     tags?: string[];
 }
@@ -72,13 +72,13 @@ export abstract class IMutation {
 }
 
 export class Phrase {
-    id: number;
+    id: string;
     phraseId: string;
     tags?: string[];
 }
 
 export class Project {
-    id: number;
+    id: string;
     title: string;
     description: string;
     type: EProjectType;

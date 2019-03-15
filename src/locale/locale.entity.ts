@@ -3,8 +3,8 @@ import { ELocaleDirection } from './locale.enums';
 
 @Entity('locale')
 export class LocaleEntity {
-  @PrimaryGeneratedColumn()
-  id: number;
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
 
   @Column()
   title: string;

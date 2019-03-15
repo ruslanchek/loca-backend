@@ -9,6 +9,8 @@ import { LocaleModule } from '../locale/locale.module';
 import { PhraseModule } from '../phrase/phrase.module';
 import { join } from 'path';
 import { SearchModule } from '../search/search.module';
+import { ElasticsearchConfigService } from '../search/search.config';
+import { ElasticsearchModule } from '@nestjs/elasticsearch';
 
 @Module({
   imports: [
@@ -19,9 +21,12 @@ import { SearchModule } from '../search/search.module';
       playground: true,
       installSubscriptionHandlers: true,
       definitions: {
-        path: join(process.cwd(), 'src/graphql.schema.ts'),
+        path: join(process.cwd(), 'src/generated/graphql.schema.ts'),
         outputAs: 'class',
       },
+    }),
+    ElasticsearchModule.registerAsync({
+      useClass: ElasticsearchConfigService,
     }),
     ProjectModule,
     LocaleModule,
@@ -32,5 +37,7 @@ import { SearchModule } from '../search/search.module';
   providers: [AppService],
 })
 export class AppModule {
-  constructor(private readonly connection: Connection) {}
+  constructor(private readonly connection: Connection) {
+
+  }
 }

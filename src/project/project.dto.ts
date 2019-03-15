@@ -5,7 +5,7 @@ import {
   IsNumber,
   IsString,
 } from 'class-validator';
-import { CommonOrderDirection, PhraseOrderBy } from '../graphql.schema';
+import { CommonOrderDirection, PhraseOrderBy } from '../generated/graphql.schema';
 
 export class CreateProjectDto {
 

@@ -1,7 +1,7 @@
 import { ParseIntPipe } from '@nestjs/common';
 import { Args, Mutation, Query, Resolver, Subscription } from '@nestjs/graphql';
 import { PubSub } from 'graphql-subscriptions';
-import { Phrase } from '../graphql.schema';
+import { Phrase } from '../generated/graphql.schema';
 import { CreatePhraseDto, GetPhrasesDto } from './phrase.dto';
 import { PhraseService } from './phrase.service';
 
@@ -12,9 +12,7 @@ export class PhraseResolver {
   constructor(private readonly phraseService: PhraseService) {}
 
   @Query('getPhrases')
-  async getPhrases(
-    @Args('getPhrasesInput') args: GetPhrasesDto,
-  ) {
+  async getPhrases(@Args('getPhrasesInput') args: GetPhrasesDto) {
     return await this.phraseService.findAll(args);
   }
 
