@@ -1,6 +1,6 @@
 type Query {
   getProjects(getProjectsInput: GetProjectsInput): [Project]!
-  getProject(id: ID!): Project!
+  getProject(id: UUID!): Project!
 }
 
 type Mutation {
@@ -12,7 +12,7 @@ type Subscription {
 }
 
 type Project {
-  id: ID!
+  id: UUID!
   title: String!
   description: String!
   type: EProjectType!

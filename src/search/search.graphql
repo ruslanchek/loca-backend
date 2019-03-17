@@ -7,7 +7,7 @@ input SearchInput {
 }
 
 type SearchResult {
-  id: ID!
+  id: UUID!
   kind: SearchResultKind!
   title: String!
   highlights: [String]

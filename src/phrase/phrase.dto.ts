@@ -5,14 +5,14 @@ import {
   IsNumber,
   IsString,
 } from 'class-validator';
-import { CommonOrderDirection, PhraseOrderBy } from '../generated/graphql.schema';
+import { CommonOrderDirection, PhraseOrderBy, UUID } from '../generated/graphql.schema';
 
 export class CreatePhraseDto {
   @IsDefined()
   phraseId: string;
 
   @IsDefined()
-  projectId: number;
+  projectId: UUID;
 
   @IsArray()
   tags: string[];
@@ -21,7 +21,7 @@ export class CreatePhraseDto {
 export class GetPhrasesDto {
   @IsDefined()
   @IsNumber()
-  projectId: number;
+  projectId: UUID;
 
   @IsDefined()
   @IsNumber()

@@ -56,11 +56,7 @@ export class PhraseService {
     });
   }
 
-  async findOne(id: number): Promise<PhraseEntity> {
-    return await this.phraseRepository.findOne({
-      where: {
-        id,
-      },
-    });
+  async findOne(id: string): Promise<PhraseEntity> {
+    return await this.phraseRepository.findOne(id);
   }
 }

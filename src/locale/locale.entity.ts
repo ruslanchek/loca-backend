@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 import { ELocaleDirection } from './locale.enums';
+import { UUID } from '../generated/graphql.schema';
 
 @Entity('locale')
 export class LocaleEntity {

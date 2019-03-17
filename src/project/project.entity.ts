@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, Index, AfterInsert } from 'typeorm';
 import { EProjectStatus, EProjectType } from './project.enums';
+import { UUID } from '../generated/graphql.schema';
 
 @Entity('project')
 export class ProjectEntity {

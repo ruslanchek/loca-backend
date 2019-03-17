@@ -1,6 +1,6 @@
 type Query {
   getPhrases(getPhrasesInput: GetPhrasesInput): [Phrase]!
-  getPhrase(id: ID!): Phrase!
+  getPhrase(id: UUID!): Phrase!
 }
 
 type Mutation {
@@ -12,19 +12,19 @@ type Subscription {
 }
 
 type Phrase {
-  id: ID!
+  id: UUID!
   phraseId: String!
   tags: [String]!
 }
 
 input CreatePhraseInput {
-  projectId: ID!
+  projectId: UUID!
   phraseId: String!
   tags: [String]
 }
 
 input GetPhrasesInput {
-  projectId: ID!
+  projectId: UUID!
   skip: Int!
   take: Int!
   orderBy: PhraseOrderBy!

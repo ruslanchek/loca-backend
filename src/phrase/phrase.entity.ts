@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 import { Index } from 'typeorm/decorator';
+import { UUID } from '../generated/graphql.schema';
 
 @Entity('phrase')
 export class PhraseEntity {
@@ -22,6 +23,7 @@ export class PhraseEntity {
   @Column({
     select: false,
   })
+
   @Index()
-  projectId: number;
+  projectId: string;
 }

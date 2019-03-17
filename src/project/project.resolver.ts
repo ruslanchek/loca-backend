@@ -19,8 +19,8 @@ export class ProjectResolver {
 
   @Query('getProject')
   async findOneById(
-    @Args('id', ParseIntPipe)
-    id: number,
+    @Args('id')
+    id: string,
   ): Promise<any> {
     return await this.projectService.findOne(id);
   }

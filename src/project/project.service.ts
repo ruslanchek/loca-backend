@@ -26,7 +26,7 @@ export class ProjectService {
     });
   }
 
-  async findOne(id: number): Promise<ProjectEntity> {
+  async findOne(id: string): Promise<ProjectEntity> {
     return await this.projectRepository.findOne({
       where: {
         id,

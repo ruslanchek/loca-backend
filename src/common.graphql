@@ -4,3 +4,5 @@ enum CommonOrderDirection {
 }
 
 scalar Date
+
+scalar UUID

@@ -37,7 +37,7 @@ export enum SearchResultKind {
 }
 
 export class CreatePhraseInput {
-    projectId: string;
+    projectId: UUID;
     phraseId: string;
     tags?: string[];
 }
@@ -47,7 +47,7 @@ export class CreateProjectInput {
 }
 
 export class GetPhrasesInput {
-    projectId: string;
+    projectId: UUID;
     skip: number;
     take: number;
     orderBy: PhraseOrderBy;
@@ -72,13 +72,13 @@ export abstract class IMutation {
 }
 
 export class Phrase {
-    id: string;
+    id: UUID;
     phraseId: string;
     tags?: string[];
 }
 
 export class Project {
-    id: string;
+    id: UUID;
     title: string;
     description: string;
     type: EProjectType;
@@ -94,11 +94,11 @@ export class Project {
 export abstract class IQuery {
     abstract getPhrases(getPhrasesInput?: GetPhrasesInput): Phrase[] | Promise<Phrase[]>;
 
-    abstract getPhrase(id: string): Phrase | Promise<Phrase>;
+    abstract getPhrase(id: UUID): Phrase | Promise<Phrase>;
 
     abstract getProjects(getProjectsInput?: GetProjectsInput): Project[] | Promise<Project[]>;
 
-    abstract getProject(id: string): Project | Promise<Project>;
+    abstract getProject(id: UUID): Project | Promise<Project>;
 
     abstract search(searchInput: SearchInput): SearchResult[] | Promise<SearchResult[]>;
 
@@ -106,7 +106,7 @@ export abstract class IQuery {
 }
 
 export class SearchResult {
-    id: string;
+    id: UUID;
     kind: SearchResultKind;
     title: string;
     highlights?: string[];
@@ -119,3 +119,4 @@ export abstract class ISubscription {
 }
 
 export type Date = any;
+export type UUID = any;

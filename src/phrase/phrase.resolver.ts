@@ -18,8 +18,8 @@ export class PhraseResolver {
 
   @Query('getPhrase')
   async findOneById(
-    @Args('id', ParseIntPipe)
-    id: number,
+    @Args('id')
+    id: string,
   ): Promise<Phrase> {
     return await this.phraseService.findOne(id);
   }

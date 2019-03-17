@@ -17,7 +17,7 @@ export class LocaleService {
     return await this.projectRepository.find();
   }
 
-  async findOne(id: number): Promise<LocaleEntity> {
+  async findOne(id: string): Promise<LocaleEntity> {
     return await this.projectRepository.findOne({
       where: {
         id,
